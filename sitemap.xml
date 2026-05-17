@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://restaurantearantxa.com/</loc>
+    <lastmod>2026-05-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://restaurantearantxa.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://restaurantearantxa.com/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://restaurantearantxa.com/"/>
+  </url>
+  <url>
+    <loc>https://restaurantearantxa.com/carta</loc>
+    <lastmod>2026-05-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://restaurantearantxa.com/carta"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://restaurantearantxa.com/carta?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://restaurantearantxa.com/carta"/>
+  </url>
+  <url>
+    <loc>https://restaurantearantxa.com/reservar</loc>
+    <lastmod>2026-05-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://restaurantearantxa.com/reservar"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://restaurantearantxa.com/reservar?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://restaurantearantxa.com/reservar"/>
+  </url>
+  <url>
+    <loc>https://restaurantearantxa.com/donde-estamos</loc>
+    <lastmod>2026-05-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://restaurantearantxa.com/donde-estamos"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://restaurantearantxa.com/donde-estamos?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://restaurantearantxa.com/donde-estamos"/>
+  </url>
+</urlset>
