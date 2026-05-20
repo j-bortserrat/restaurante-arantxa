@@ -15,13 +15,13 @@
 
       'hero.tagline': 'Cocina con alma · València',
       'hero.title': 'Producto fresco,\nrecetas <em>de toda la vida</em>',
-      'hero.sub': 'Tapas, ensaladas de tomate rosa del Perelló, mariscos, carnes y cocido madrileño los viernes. En pleno corazón de L\'Eixample.',
+      'hero.sub': 'Tapas, ensaladas de tomate rosa del Perelló, mariscos, carnes y, los viernes, cocido madrileño. En pleno corazón de L\'Eixample.',
       'hero.cta1': 'Reservar por WhatsApp',
       'hero.cta2': 'Ver la carta',
 
       'about.eyebrow': 'El local',
       'about.title': 'Un rincón familiar en València',
-      'about.p1': 'Arantxa es un restaurante de barrio donde cada día se eligen los productos a mano: tomate rosa del Perelló, jamón ibérico, pescado fresco y carnes seleccionadas. Recetas tradicionales, raciones generosas y un servicio que te trata como en casa.',
+      'about.p1': 'Arantxa es un restaurante de barrio donde se seleccionan los productos manualmente cada día: tomate rosa del Perelló, jamón ibérico, pescado fresco y carnes seleccionadas. Recetas tradicionales, raciones generosas y un ambiente que te hace sentir como en casa.',
       'about.p2': 'Una carta corta y honesta, una bodega de vinos de denominaciones de origen españolas y, los viernes, nuestro cocido madrileño completo por 25 €. Eso es Arantxa.',
       'about.stat1.num': '4,9',
       'about.stat1.lbl': 'Valoración TripAdvisor',
@@ -374,13 +374,13 @@
 
       'hero.tagline': 'Cooking with soul · Valencia',
       'hero.title': 'Fresh ingredients,\n<em>timeless</em> recipes',
-      'hero.sub': 'Tapas, pink tomato from Perelló salads, seafood, grilled meats and Traditional Madrid stew every Friday. Right in the heart of L\'Eixample.',
+      'hero.sub': 'Tapas, pink tomato from Perelló salads, seafood, grilled meats and, on Fridays, Traditional Madrid stew. Right in the heart of L\'Eixample.',
       'hero.cta1': 'Book via WhatsApp',
       'hero.cta2': 'See the menu',
 
       'about.eyebrow': 'The place',
       'about.title': 'A family corner in Valencia',
-      'about.p1': 'Arantxa is a neighborhood restaurant where products are hand-picked daily: pink tomato from Perelló, Iberian ham, fresh fish and selected meats. Traditional recipes, generous portions and the kind of service that feels like home.',
+      'about.p1': 'Arantxa is a neighborhood restaurant where ingredients are hand-picked every day: pink tomato from Perelló, Iberian ham, fresh fish and selected meats. Traditional recipes, generous portions and an atmosphere that makes you feel right at home.',
       'about.p2': 'A short, honest menu, a cellar of Spanish DO wines and, on Fridays, our Traditional Madrid stew for €25. That\'s Arantxa.',
       'about.stat1.num': '4.9',
       'about.stat1.lbl': 'TripAdvisor rating',

@@ -1097,6 +1097,11 @@ footer {
 .foot-bottom { padding-top: 24px; border-top: 1px solid rgba(212,168,87,0.15); display: flex; flex-wrap: wrap; justify-content: space-between; gap: 14px; font-size: .8rem; color: rgba(245,237,224,0.5); }
 .foot-bottom a:hover { color: var(--gold); }
 
+.wertical-credit { display: inline-flex; align-items: baseline; gap: 5px; font-size: .8rem; color: rgba(245,237,224,0.5); }
+.wertical-credit .by { font-size: .8rem; text-transform: lowercase; letter-spacing: 0; color: rgba(245,237,224,0.5); font-weight: 400; }
+.wertical-credit a { font-family: 'Fraunces', 'Playfair Display', Georgia, serif; font-style: italic; font-weight: 500; font-size: 1rem; color: rgba(245,237,224,0.72); text-decoration: none; border-bottom: 1px solid currentColor; padding-bottom: 1px; transition: color 0.3s, border-color 0.3s; letter-spacing: -0.005em; }
+.wertical-credit a:hover { color: var(--gold); border-bottom-color: var(--gold); }
+
 /* ---------- WhatsApp floating ---------- */
 .wa-float {
   position: fixed; bottom: 28px; right: 28px;
