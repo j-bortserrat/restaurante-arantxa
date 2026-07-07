@@ -1105,21 +1105,53 @@ footer {
 /* ---------- WhatsApp floating ---------- */
 .wa-float {
   position: fixed; bottom: 28px; right: 28px;
-  width: 60px; height: 60px;
+  width: 58px; height: 58px;
   border-radius: 50%;
-  background: #25D366;
-  color: #fff;
-  display: flex; align-items: center; justify-content: center;
-  box-shadow: 0 12px 30px rgba(37,211,102,0.45);
+  display: inline-flex; align-items: center; justify-content: center;
+  background: var(--black);
+  color: #25D366;
+  border: 1px solid rgba(212,168,87,0.45);
+  box-shadow: var(--shadow-hard);
   z-index: 80;
-  animation: pulse 2.4s var(--ease) infinite;
-  transition: transform .25s var(--ease);
+  transition: transform .25s var(--ease), background .25s var(--ease), border-color .25s var(--ease);
 }
-.wa-float:hover { transform: scale(1.08); }
-.wa-float svg { width: 30px; height: 30px; }
-@keyframes pulse {
-  0%, 100% { box-shadow: 0 12px 30px rgba(37,211,102,0.45); }
-  50% { box-shadow: 0 12px 30px rgba(37,211,102,0.7), 0 0 0 12px rgba(37,211,102,0.12); }
+.wa-float:hover { transform: translateY(-2px); background: var(--black-soft); border-color: var(--gold); }
+.wa-float svg { width: 27px; height: 27px; }
+
+/* ---------- Status float (Abierto / Cerrado) ---------- */
+.status-float {
+  position: fixed; bottom: 28px; left: 28px;
+  display: inline-flex; align-items: center; gap: 9px;
+  padding: 11px 17px;
+  border-radius: 999px;
+  background: rgba(13,13,13,0.92);
+  backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px);
+  color: var(--cream);
+  font-family: var(--sans); font-size: .76rem; font-weight: 600; letter-spacing: .01em;
+  border: 1px solid var(--line);
+  box-shadow: var(--shadow-soft);
+  z-index: 80;
+  transition: opacity .3s var(--ease);
+}
+.status-float[hidden] { display: none; }
+.status-float .status-dot {
+  width: 9px; height: 9px; border-radius: 50%;
+  background: var(--muted); flex-shrink: 0;
+}
+.status-float.is-open .status-dot {
+  background: #2ecc71;
+  animation: dotpulse 2.2s var(--ease) infinite;
+}
+.status-float.is-closed .status-dot { background: #e0574a; }
+.status-float.is-soon .status-dot {
+  background: #e8a33d;
+  animation: dotpulse 2.2s var(--ease) infinite;
+}
+.status-float .status-text b { color: #fff; font-weight: 700; }
+.status-float .status-text .muted { color: var(--sage); font-weight: 500; }
+@keyframes dotpulse {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(46,204,113,0.45); }
+  50% { box-shadow: 0 0 0 6px rgba(46,204,113,0); }
 }
 
 /* ---------- Modal (carta image lightbox + legal) ---------- */
@@ -1265,6 +1297,8 @@ footer {
   .btn { padding: 14px 24px; font-size: .78rem; }
   .gallery { grid-template-columns: 1fr 1fr; }
   .breadcrumb .container { flex-direction: column; align-items: flex-start; gap: 14px; }
-  .wa-float { width: 54px; height: 54px; bottom: 20px; right: 20px; }
-  .wa-float svg { width: 26px; height: 26px; }
+  .wa-float { width: 52px; height: 52px; bottom: 16px; right: 16px; }
+  .wa-float svg { width: 24px; height: 24px; }
+  .status-float { bottom: 16px; left: 16px; padding: 9px 13px; font-size: .7rem; gap: 7px; }
+  .status-float .status-dot { width: 8px; height: 8px; }
 }

@@ -199,16 +199,10 @@
       <a href="reservar.html?cocido=1" class="btn btn-primary" data-i18n="cocidoStrip.cta">Reservar</a>
     </div>
 
-    <!-- Descarga PDF -->
-    <div style="text-align:center;margin-bottom:50px">
-      <a href="assets/carta-arantxa.pdf" download class="btn btn-ghost" id="pdfDownload" style="border-color:var(--gold);color:var(--gold-bright)">
-        <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg>
-        <span data-i18n="pdf.download">Descargar carta en PDF</span>
-      </a>
-    </div>
-
     <div class="carta-tabs" role="tablist">
-      <button data-tab="entrantes" class="active" role="tab" data-i18n="tab.entrantes">Entrantes</button>
+      <button data-tab="almuerzos" class="active" role="tab" data-i18n="tab.almuerzos">Almuerzos</button>
+      <button data-tab="aperitivo" role="tab" data-i18n="tab.aperitivo">Aperitivo</button>
+      <button data-tab="entrantes" role="tab" data-i18n="tab.entrantes">Entrantes</button>
       <button data-tab="ensaladas" role="tab" data-i18n="tab.ensaladas">Ensaladas</button>
       <button data-tab="tostas" role="tab" data-i18n="tab.tostas">Tostas</button>
       <button data-tab="mar" role="tab" data-i18n="tab.mar">Del mar</button>
@@ -217,10 +211,11 @@
       <button data-tab="postres" role="tab" data-i18n="tab.postres">Postres</button>
       <button data-tab="bebidas" role="tab" data-i18n="tab.bebidas">Bebidas</button>
       <button data-tab="vinos" role="tab" data-i18n="tab.vinos">Vinos</button>
+      <button data-tab="grupos" role="tab" data-i18n="tab.grupos">Grupos</button>
     </div>
 
     <!-- ENTRANTES -->
-    <div class="carta-panel active" id="panel-entrantes">
+    <div class="carta-panel" id="panel-entrantes">
       <div class="carta-cat-head">
         <h3 data-i18n="cat.entrantes.title">Entrantes para compartir</h3>
         <p data-i18n="cat.entrantes.intro">Para empezar, picar, brindar.</p>
@@ -449,6 +444,64 @@
       </div>
     </div>
 
+    <!-- ALMUERZOS -->
+    <div class="carta-panel active" id="panel-almuerzos">
+      <div class="carta-cat-head">
+        <h3 data-i18n="cat.almuerzos.title">Desayunos y almuerzos</h3>
+        <p data-i18n="cat.almuerzos.intro">Para empezar el día o a media mañana, al estilo valenciano.</p>
+      </div>
+      <h4 style="font-family:var(--display);color:var(--gold-bright);letter-spacing:.25em;text-transform:uppercase;font-size:.85rem;margin:0 0 18px" data-i18n="cat.almuerzos.sub1">Desayunos</h4>
+      <div class="carta-list">
+        <div class="carta-row"><div class="carta-row-main"><h4 data-i18n="alm.tostada.n">Tostada + café</h4><p data-i18n="alm.tostada.d">A elegir: aceite de oliva · tomate y aceite · mantequilla y mermelada.</p></div><span class="carta-row-price">4,00 €</span></div>
+      </div>
+      <h4 style="font-family:var(--display);color:var(--gold-bright);letter-spacing:.25em;text-transform:uppercase;font-size:.85rem;margin:30px 0 18px" data-i18n="cat.almuerzos.sub2">Almuerzos</h4>
+      <div class="carta-list">
+        <div class="carta-row"><div class="carta-row-main"><h4 data-i18n="alm.mollete.n">Tosta de mollete + cacaos + bebida + café</h4><p data-i18n="alm.mollete.d">Mollete a elegir: atún, pimiento verde y aceituna de anchoa · salmón ahumado, aguacate y huevo poché · jamón ibérico · queso curado con tomate.</p></div><span class="carta-row-price">8,00 €</span></div>
+        <div class="carta-row"><div class="carta-row-main"><h4 data-i18n="alm.bocadillo.n">Bocadillo + cacaos + bebida + café</h4><p data-i18n="alm.bocadillo.d">A elegir: tortilla de patata · tortilla francesa · lomo con patatas y pimiento verde · beicon con queso · pechuga de pollo al gusto · jamón · queso curado.</p></div><span class="carta-row-price">10,00 €</span></div>
+      </div>
+    </div>
+
+    <!-- APERITIVO -->
+    <div class="carta-panel" id="panel-aperitivo">
+      <div class="carta-cat-head">
+        <h3 data-i18n="cat.aperitivo.title">La hora del aperitivo</h3>
+        <p data-i18n="cat.aperitivo.intro">Fría, bien tirada y muy necesaria. Cada combo con caña, 6 €.</p>
+      </div>
+      <div class="carta-list">
+        <div class="carta-row"><div class="carta-row-main"><h4 data-i18n="ap.bravas.n">Caña + bravas</h4></div><span class="carta-row-price">6,00 €</span></div>
+        <div class="carta-row"><div class="carta-row-main"><h4 data-i18n="ap.ensaladilla.n">Caña + ensaladilla</h4></div><span class="carta-row-price">6,00 €</span></div>
+        <div class="carta-row"><div class="carta-row-main"><h4 data-i18n="ap.queso.n">Caña + queso curado</h4></div><span class="carta-row-price">6,00 €</span></div>
+        <div class="carta-row"><div class="carta-row-main"><h4 data-i18n="ap.boqueron.n">Caña + papas con boquerón</h4></div><span class="carta-row-price">6,00 €</span></div>
+        <div class="carta-row"><div class="carta-row-main"><h4 data-i18n="ap.mejillones.n">Caña + lata de mejillones</h4></div><span class="carta-row-price">6,00 €</span></div>
+        <div class="carta-row"><div class="carta-row-main"><h4 data-i18n="ap.berberechos.n">Caña + lata de berberechos</h4></div><span class="carta-row-price">6,00 €</span></div>
+      </div>
+      <p style="text-align:center;margin-top:24px;color:rgba(245,237,224,0.6);font-size:.85rem;font-style:italic" data-i18n="cat.aperitivo.note">Con vino o vermut, suplemento de 2 €.</p>
+    </div>
+
+    <!-- GRUPOS -->
+    <div class="carta-panel" id="panel-grupos">
+      <div class="carta-cat-head">
+        <h3 data-i18n="cat.grupos.title">Menú para grupos</h3>
+        <p data-i18n="cat.grupos.intro">Ideal para celebraciones y comidas de empresa.</p>
+      </div>
+      <div style="text-align:center;margin-bottom:40px">
+        <div style="display:inline-flex;align-items:baseline;gap:10px;font-family:var(--serif);color:var(--gold-bright)">
+          <span style="font-size:3.4rem;line-height:1;font-weight:600">40</span>
+          <span style="font-size:.85rem;letter-spacing:.18em;text-transform:uppercase;color:rgba(245,237,224,0.6)">€ / persona</span>
+        </div>
+        <p style="margin-top:14px;color:rgba(245,237,224,0.6);font-size:.85rem;font-style:italic" data-i18n="cat.grupos.incluye">Incluye bebida de bienvenida, una botella de vino cada 2 personas, café y chupito.</p>
+      </div>
+      <div class="carta-list">
+        <div class="carta-row"><div class="carta-row-main"><h4 data-i18n="gr.pan.n">Pan con tomate y alioli</h4></div></div>
+        <div class="carta-row"><div class="carta-row-main"><h4 data-i18n="gr.bravas.n">Patatas bravas</h4></div></div>
+        <div class="carta-row"><div class="carta-row-main"><h4 data-i18n="gr.tomate.n">Tomate rosa del Perelló con burrata</h4></div></div>
+        <div class="carta-row"><div class="carta-row-main"><h4 data-i18n="gr.croquetas.n">Croquetas de jamón</h4></div></div>
+        <div class="carta-row"><div class="carta-row-main"><h4 data-i18n="gr.calamarcitos.n">Calamarcitos a la andaluza</h4></div></div>
+        <div class="carta-row"><div class="carta-row-main"><h4 data-i18n="gr.entrecot.n">Entrecot trinchado</h4></div></div>
+        <div class="carta-row"><div class="carta-row-main"><h4 data-i18n="gr.postres.n">Postres</h4></div></div>
+      </div>
+    </div>
+
     <!-- SUGERENCIAS DEL DÍA -->
     <div class="allergen-note" style="background:rgba(212,168,87,0.12);border-color:rgba(212,168,87,0.35);margin-top:50px">
       <strong data-i18n="sugerencias.title">Sugerencias del día</strong>
@@ -514,23 +567,21 @@
         <ul>
           <li><a href="tel:+34663209793">+34 663 209 793</a></li>
           <li><a href="https://wa.me/34663209793" target="_blank" rel="noopener">WhatsApp</a></li>
-          <li><a href="mailto:info@restaurantearantxa.com">info@restaurantearantxa.com</a></li>
           <li>Joaquín Costa, 50 · 46005 València</li>
         </ul>
       </div>
       <div class="foot-col">
         <h4 data-i18n="footer.col3">Legal</h4>
         <ul>
-          <li><a href="index.html#" data-i18n="footer.legal">Aviso legal</a></li>
-          <li><a href="index.html#" data-i18n="footer.privacy">Política de privacidad</a></li>
-          <li><a href="index.html#" data-i18n="footer.cookies">Política de cookies</a></li>
+          <li><a href="index.html#legal" data-i18n="footer.legal">Aviso legal</a></li>
+          <li><a href="index.html#privacy" data-i18n="footer.privacy">Política de privacidad</a></li>
+          <li><a href="index.html#cookies" data-i18n="footer.cookies">Política de cookies</a></li>
         </ul>
       </div>
     </div>
     <div class="foot-bottom">
       <span>© <script>document.write(new Date().getFullYear())</script> Restaurante Arantxa · <span data-i18n="footer.rights">Todos los derechos reservados</span></span>
       <span class="wertical-credit"><span class="by">by</span> <a href="https://werticalstudio.com" target="_blank" rel="noopener">werticalstudio.com</a></span>
-      <span>NIF [DATO LEGAL PENDIENTE]</span>
     </div>
   </div>
 </footer>
@@ -539,6 +590,12 @@
 <a href="https://wa.me/34663209793?text=Hola%2C%20quisiera%20reservar%20mesa%20en%20Arantxa" class="wa-float" target="_blank" rel="noopener" aria-label="WhatsApp">
   <svg viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163a11.867 11.867 0 01-1.588-5.945C.16 5.335 5.495 0 12.05 0a11.817 11.817 0 018.413 3.488 11.824 11.824 0 013.48 8.413c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 01-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.86 9.86 0 001.595 5.392l-.999 3.648 3.893-1.025zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.71.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413z"/></svg>
 </a>
+
+<!-- Estado abierto / cerrado -->
+<div class="status-float" id="statusFloat" hidden>
+  <span class="status-dot"></span>
+  <span class="status-text"></span>
+</div>
 
 <!-- MODALS imagen carta -->
 <div class="modal modal-img" id="modalCartaComida">

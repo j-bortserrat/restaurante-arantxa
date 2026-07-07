@@ -16,7 +16,7 @@
       'hero.tagline': 'Cocina con alma · València',
       'hero.title': 'Producto fresco,\nrecetas <em>de toda la vida</em>',
       'hero.sub': 'Tapas, ensaladas de tomate rosa del Perelló, mariscos, carnes y, los viernes, cocido madrileño. En pleno corazón de L\'Eixample.',
-      'hero.cta1': 'Reservar por WhatsApp',
+      'hero.cta1': 'Reservar',
       'hero.cta2': 'Ver la carta',
 
       'about.eyebrow': 'El local',
@@ -52,9 +52,9 @@
 
       'reviews.eyebrow': 'Lo que dicen',
       'reviews.title': 'Reseñas reales',
-      'reviews.sub': 'Selección extraída de Google (5 ★ sobre 5 con 37 opiniones).',
+      'reviews.sub': 'Selección extraída de Google (5 ★ sobre 5 con 57 opiniones).',
       'reviews.foot.stars': '5,0 ★',
-      'reviews.foot.label': 'Media en Google Maps · 37 reseñas verificadas',
+      'reviews.foot.label': 'Media en Google Maps · 57 reseñas verificadas',
 
       'where.eyebrow': 'Visítanos',
       'where.title': 'Dónde estamos',
@@ -136,7 +136,6 @@
       'cocidoStrip.desc': 'Tres vuelcos · Incluye bebida y postre o café · Se agota, mejor reservar.',
       'cocidoStrip.unit': 'persona',
       'cocidoStrip.cta': 'Reservar',
-      'pdf.download': 'Descargar carta en PDF',
       'cta.bookTable': 'Reservar mesa',
 
       // Carta tabs
@@ -149,6 +148,40 @@
       'tab.postres': 'Postres',
       'tab.bebidas': 'Bebidas',
       'tab.vinos': 'Vinos',
+      'tab.almuerzos': 'Almuerzos',
+      'tab.aperitivo': 'Aperitivo',
+      'tab.grupos': 'Grupos',
+
+      // Almuerzos / Aperitivo / Grupos
+      'cat.almuerzos.title': 'Desayunos y almuerzos',
+      'cat.almuerzos.intro': 'Para empezar el día o a media mañana, al estilo valenciano.',
+      'cat.almuerzos.sub1': 'Desayunos',
+      'cat.almuerzos.sub2': 'Almuerzos',
+      'alm.tostada.n': 'Tostada + café',
+      'alm.tostada.d': 'A elegir: aceite de oliva · tomate y aceite · mantequilla y mermelada.',
+      'alm.mollete.n': 'Tosta de mollete + cacaos + bebida + café',
+      'alm.mollete.d': 'Mollete a elegir: atún, pimiento verde y aceituna de anchoa · salmón ahumado, aguacate y huevo poché · jamón ibérico · queso curado con tomate.',
+      'alm.bocadillo.n': 'Bocadillo + cacaos + bebida + café',
+      'alm.bocadillo.d': 'A elegir: tortilla de patata · tortilla francesa · lomo con patatas y pimiento verde · beicon con queso · pechuga de pollo al gusto · jamón · queso curado.',
+      'cat.aperitivo.title': 'La hora del aperitivo',
+      'cat.aperitivo.intro': 'Fría, bien tirada y muy necesaria. Cada combo con caña, 6 €.',
+      'cat.aperitivo.note': 'Con vino o vermut, suplemento de 2 €.',
+      'ap.bravas.n': 'Caña + bravas',
+      'ap.ensaladilla.n': 'Caña + ensaladilla',
+      'ap.queso.n': 'Caña + queso curado',
+      'ap.boqueron.n': 'Caña + papas con boquerón',
+      'ap.mejillones.n': 'Caña + lata de mejillones',
+      'ap.berberechos.n': 'Caña + lata de berberechos',
+      'cat.grupos.title': 'Menú para grupos',
+      'cat.grupos.intro': 'Ideal para celebraciones y comidas de empresa.',
+      'cat.grupos.incluye': 'Incluye bebida de bienvenida, una botella de vino cada 2 personas, café y chupito.',
+      'gr.pan.n': 'Pan con tomate y alioli',
+      'gr.bravas.n': 'Patatas bravas',
+      'gr.tomate.n': 'Tomate rosa del Perelló con burrata',
+      'gr.croquetas.n': 'Croquetas de jamón',
+      'gr.calamarcitos.n': 'Calamarcitos a la andaluza',
+      'gr.entrecot.n': 'Entrecot trinchado',
+      'gr.postres.n': 'Postres',
 
       // Tab section heads + intros
       'cat.entrantes.title': 'Entrantes para compartir',
@@ -204,7 +237,7 @@
       'how.walk.title': 'A pie',
       'how.walk.desc': '10 min desde el <strong>Mercado de Colón</strong>.<br>12 min desde la <strong>Plaza del Ayuntamiento</strong>.',
       'how.car.title': 'En coche',
-      'how.car.desc': 'Parking <strong>Aparcamiento Norte Estación</strong> (5 min) o <strong>Bailén</strong> (4 min). Zona azul (ORA) en la propia calle.',
+      'how.car.desc': 'Parking <strong>Mercado de Colón</strong> o <strong>Colón 60</strong>, ambos a unos 5 min a pie. En la propia calle Joaquín Costa: <strong>zona azul (ORA) y zona blanca</strong>.',
 
       // Aparcamiento
       'park.eyebrow': 'Aparcamiento',
@@ -375,7 +408,7 @@
       'hero.tagline': 'Cooking with soul · Valencia',
       'hero.title': 'Fresh ingredients,\n<em>timeless</em> recipes',
       'hero.sub': 'Tapas, pink tomato from Perelló salads, seafood, grilled meats and, on Fridays, Traditional Madrid stew. Right in the heart of L\'Eixample.',
-      'hero.cta1': 'Book via WhatsApp',
+      'hero.cta1': 'Book',
       'hero.cta2': 'See the menu',
 
       'about.eyebrow': 'The place',
@@ -411,9 +444,9 @@
 
       'reviews.eyebrow': 'What guests say',
       'reviews.title': 'Real reviews',
-      'reviews.sub': 'Selection from Google (5 ★ out of 5 across 37 reviews).',
+      'reviews.sub': 'Selection from Google (5 ★ out of 5 across 57 reviews).',
       'reviews.foot.stars': '5.0 ★',
-      'reviews.foot.label': 'Average on Google Maps · 37 verified reviews',
+      'reviews.foot.label': 'Average on Google Maps · 57 verified reviews',
 
       'where.eyebrow': 'Visit us',
       'where.title': 'Find us',
@@ -495,7 +528,6 @@
       'cocidoStrip.desc': 'Three servings · Drink and dessert or coffee included · Sells out — book ahead.',
       'cocidoStrip.unit': 'per person',
       'cocidoStrip.cta': 'Book',
-      'pdf.download': 'Download menu PDF',
       'cta.bookTable': 'Book a table',
 
       // Menu tabs
@@ -508,6 +540,40 @@
       'tab.postres': 'Desserts',
       'tab.bebidas': 'Drinks',
       'tab.vinos': 'Wines',
+      'tab.almuerzos': 'Breakfast & lunch',
+      'tab.aperitivo': 'Aperitif',
+      'tab.grupos': 'Groups',
+
+      // Almuerzos / Aperitivo / Grupos
+      'cat.almuerzos.title': 'Breakfast & light lunch',
+      'cat.almuerzos.intro': 'To start the day or mid-morning, Valencian style.',
+      'cat.almuerzos.sub1': 'Breakfast',
+      'cat.almuerzos.sub2': 'Light lunch',
+      'alm.tostada.n': 'Toast + coffee',
+      'alm.tostada.d': 'Choose: olive oil · tomato & oil · butter & jam.',
+      'alm.mollete.n': 'Mollete toast + peanuts + drink + coffee',
+      'alm.mollete.d': 'Choose your mollete: tuna, green pepper & anchovy olive · smoked salmon, avocado & poached egg · Iberian ham · cured cheese with tomato.',
+      'alm.bocadillo.n': 'Sandwich + peanuts + drink + coffee',
+      'alm.bocadillo.d': 'Choose: potato omelette · French omelette · pork loin with chips & green pepper · bacon & cheese · chicken breast · ham · cured cheese.',
+      'cat.aperitivo.title': 'Aperitif hour',
+      'cat.aperitivo.intro': 'Cold, well-poured and much needed. Each combo with a beer, €6.',
+      'cat.aperitivo.note': 'With wine or vermouth, €2 extra.',
+      'ap.bravas.n': 'Beer + patatas bravas',
+      'ap.ensaladilla.n': 'Beer + Russian salad',
+      'ap.queso.n': 'Beer + cured cheese',
+      'ap.boqueron.n': 'Beer + crisps with fresh anchovy',
+      'ap.mejillones.n': 'Beer + tin of mussels',
+      'ap.berberechos.n': 'Beer + tin of cockles',
+      'cat.grupos.title': 'Group menu',
+      'cat.grupos.intro': 'Perfect for celebrations and company lunches.',
+      'cat.grupos.incluye': 'Includes a welcome drink, one bottle of wine per 2 guests, coffee and a shot.',
+      'gr.pan.n': 'Bread with tomato & aioli',
+      'gr.bravas.n': 'Patatas bravas',
+      'gr.tomate.n': 'Perelló pink tomato with burrata',
+      'gr.croquetas.n': 'Ham croquettes',
+      'gr.calamarcitos.n': 'Andalusian-style baby squid',
+      'gr.entrecot.n': 'Sliced entrecôte',
+      'gr.postres.n': 'Desserts',
 
       // Section heads + intros
       'cat.entrantes.title': 'Starters to share',
@@ -563,7 +629,7 @@
       'how.walk.title': 'On foot',
       'how.walk.desc': '10 min from <strong>Mercado de Colón</strong>.<br>12 min from <strong>Plaza del Ayuntamiento</strong>.',
       'how.car.title': 'By car',
-      'how.car.desc': 'Park at <strong>Aparcamiento Norte Estación</strong> (5 min) or <strong>Bailén</strong> (4 min). Paid street parking (ORA) on the street.',
+      'how.car.desc': 'Park at <strong>Mercado de Colón</strong> or <strong>Colón 60</strong>, both about a 5-min walk. On Joaquín Costa itself: <strong>blue (ORA) and white zones</strong>.',
 
       // Parking
       'park.eyebrow': 'Parking',
@@ -766,14 +832,8 @@
     document.querySelectorAll('.lang-switch button').forEach(b => {
       b.classList.toggle('active', b.dataset.lang === lang);
     });
-    // PDF download link toggles between ES and EN
-    const pdf = document.getElementById('pdfDownload');
-    if (pdf) {
-      pdf.href = lang === 'en'
-        ? 'assets/carta-arantxa-en.pdf'
-        : 'assets/carta-arantxa.pdf';
-    }
     localStorage.setItem('arantxa.lang', lang);
+    updateStatusFloat(lang);
   }
 
   // ---------- NAV ----------
@@ -883,6 +943,13 @@
     document.addEventListener('keydown', e => {
       if (e.key === 'Escape') document.querySelectorAll('.modal.open').forEach(m => m.classList.remove('open'));
     });
+    // Apertura directa por hash (enlaces legales desde otras páginas): #legal, #privacy, #cookies
+    const hashMap = { '#legal': 'modalLegal', '#privacy': 'modalPrivacy', '#cookies': 'modalCookies' };
+    const target = hashMap[location.hash];
+    if (target) {
+      const m = document.getElementById(target);
+      if (m) m.classList.add('open');
+    }
   }
 
   // ---------- COOKIES ----------
@@ -913,14 +980,18 @@
         const email = form.querySelector('[name="email"]')?.value || '';
         const phone = form.querySelector('[name="phone"]')?.value || '';
         const msg = form.querySelector('[name="message"]')?.value || '';
-        const subject = encodeURIComponent('Consulta web Arantxa — ' + name);
-        const body = encodeURIComponent('Nombre: ' + name + '\nEmail: ' + email + '\nTeléfono: ' + phone + '\n\n' + msg);
+        const waText = encodeURIComponent(
+          'Hola, consulta desde la web de Arantxa.\nNombre: ' + name +
+          (phone ? '\nTeléfono: ' + phone : '') +
+          (email ? '\nEmail: ' + email : '') +
+          '\n\n' + msg
+        );
         const out = form.querySelector('.form-msg');
         if (out) {
           out.className = 'form-msg ok';
-          out.textContent = 'Abriendo tu cliente de correo… Si no se abre, escríbenos a info@restaurantearantxa.com';
+          out.textContent = 'Abriendo WhatsApp para enviarnos tu consulta…';
         }
-        window.location.href = 'mailto:info@restaurantearantxa.com?subject=' + subject + '&body=' + body;
+        window.open('https://wa.me/34663209793?text=' + waText, '_blank', 'noopener');
       });
     });
   }
@@ -1306,6 +1377,90 @@
     if (row) row.classList.add('today');
   }
 
+  // ---------- STATUS FLOAT: abierto / cerrado ----------
+  // Horario en minutos desde medianoche. getDay(): 0 dom .. 6 sáb.
+  const OPEN_HOURS = {
+    0: [[690, 1020]],                 // Domingo   11:30–17:00
+    1: [],                            // Lunes     cerrado
+    2: [[720, 990], [1200, 1440]],    // Martes    12:00–16:30 · 20:00–24:00
+    3: [[720, 990], [1200, 1440]],    // Miércoles
+    4: [[720, 990], [1200, 1440]],    // Jueves
+    5: [[720, 990], [1200, 1440]],    // Viernes
+    6: [[720, 1020], [1200, 1440]]    // Sábado    12:00–17:00 · 20:00–24:00
+  };
+
+  const STATUS_LABELS = {
+    es: {
+      open: 'Abierto', soon: 'Cierra pronto', closed: 'Cerrado',
+      closesAt: 'cierra', opensAt: 'abre', tomorrow: 'mañana',
+      days: ['domingo', 'lunes', 'martes', 'miércoles', 'jueves', 'viernes', 'sábado']
+    },
+    en: {
+      open: 'Open now', soon: 'Closing soon', closed: 'Closed',
+      closesAt: 'closes', opensAt: 'opens', tomorrow: 'tomorrow',
+      days: ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
+    }
+  };
+
+  function fmtTime(m) {
+    m = m % 1440;                     // 1440 (24:00) -> 00:00
+    return Math.floor(m / 60) + ':' + (m % 60 < 10 ? '0' : '') + (m % 60);
+  }
+
+  function computeStatus(now) {
+    const day = now.getDay();
+    const mins = now.getHours() * 60 + now.getMinutes();
+    const ranges = OPEN_HOURS[day] || [];
+    for (const [o, c] of ranges) {
+      if (mins >= o && mins < c) return { open: true, soon: (c - mins) <= 30, closeAt: c };
+    }
+    // Próxima apertura: un tramo posterior hoy, o el primer día siguiente que abra.
+    for (const [o] of ranges) {
+      if (o > mins) return { open: false, nextDay: day, nextOpen: o, offset: 0 };
+    }
+    for (let d = 1; d <= 7; d++) {
+      const nd = (day + d) % 7;
+      const r = OPEN_HOURS[nd] || [];
+      if (r.length) return { open: false, nextDay: nd, nextOpen: r[0][0], offset: d };
+    }
+    return { open: false };
+  }
+
+  function updateStatusFloat(lang) {
+    const el = document.getElementById('statusFloat');
+    if (!el) return;
+    const L = STATUS_LABELS[lang] || STATUS_LABELS.es;
+    const st = computeStatus(new Date());
+    const textEl = el.querySelector('.status-text');
+    el.classList.remove('is-open', 'is-closed', 'is-soon');
+
+    if (st.open && st.soon) {
+      el.classList.add('is-soon');
+      textEl.innerHTML = '<b>' + L.soon + '</b> <span class="muted">· ' + L.closesAt + ' ' + fmtTime(st.closeAt) + '</span>';
+    } else if (st.open) {
+      el.classList.add('is-open');
+      textEl.innerHTML = '<b>' + L.open + '</b> <span class="muted">· ' + L.closesAt + ' ' + fmtTime(st.closeAt) + '</span>';
+    } else {
+      el.classList.add('is-closed');
+      let when = '';
+      if (st.nextOpen != null) {
+        const t = fmtTime(st.nextOpen);
+        if (st.offset === 0) when = L.opensAt + ' ' + t;
+        else if (st.offset === 1) when = L.opensAt + ' ' + L.tomorrow + ' ' + t;
+        else when = L.opensAt + ' ' + L.days[st.nextDay] + ' ' + t;
+      }
+      textEl.innerHTML = '<b>' + L.closed + '</b>' + (when ? ' <span class="muted">· ' + when + '</span>' : '');
+    }
+    el.hidden = false;
+  }
+
+  function setupStatusFloat() {
+    if (!document.getElementById('statusFloat')) return;
+    const currentLang = () => localStorage.getItem('arantxa.lang') || document.documentElement.lang || 'es';
+    updateStatusFloat(currentLang());
+    setInterval(() => updateStatusFloat(currentLang()), 60000);
+  }
+
   // ---------- INIT ----------
   document.addEventListener('DOMContentLoaded', () => {
     setupNav();
@@ -1318,5 +1473,6 @@
     setupForms();
     setupReservationForm();
     setupHoursToday();
+    setupStatusFloat();
   });
 })();
