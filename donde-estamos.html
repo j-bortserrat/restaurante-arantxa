@@ -56,11 +56,9 @@
     },
     "hasMap": "https://maps.app.goo.gl/GXvUJ25aapMyuczh7",
     "openingHoursSpecification": [
-      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Sunday", "opens": "11:30", "closes": "17:00" },
-      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Tuesday","Wednesday","Thursday","Friday"], "opens": "12:00", "closes": "16:30" },
-      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Tuesday","Wednesday","Thursday","Friday"], "opens": "20:00", "closes": "24:00" },
-      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "12:00", "closes": "17:00" },
-      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "20:00", "closes": "24:00" }
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "19:00", "closes": "00:30" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "13:00", "closes": "17:00" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "19:00", "closes": "00:00" }
     ]
   }
   </script>
@@ -110,7 +108,7 @@
 <section class="where" style="padding:80px 0">
   <div class="container">
     <div class="where-grid">
-      <div class="map-wrap reveal" id="mapWrap" data-eager="true" role="img" aria-label="Mapa del restaurante Arantxa en Joaquín Costa 50">
+      <div class="map-wrap reveal" id="mapWrap" role="img" aria-label="Mapa del restaurante Arantxa en Joaquín Costa 50">
         <div class="map-placeholder">
           <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 110-5 2.5 2.5 0 010 5z"/></svg>
           <span data-i18n="map.loading">Cargando mapa…</span>
@@ -140,14 +138,15 @@
             <div style="width:100%">
               <b data-i18n="contact.hours">Horario</b>
               <table class="hours-table">
-                <tr data-day="dom"><td data-i18n="day.sun">Domingo</td><td>11:30 – 17:00</td></tr>
-                <tr data-day="lun"><td data-i18n="day.mon">Lunes</td><td class="closed" data-i18n="day.closed">Cerrado</td></tr>
-                <tr data-day="mar"><td data-i18n="day.tue">Martes</td><td>12:00 – 16:30<br>20:00 – 24:00</td></tr>
-                <tr data-day="mie"><td data-i18n="day.wed">Miércoles</td><td>12:00 – 16:30<br>20:00 – 24:00</td></tr>
-                <tr data-day="jue"><td data-i18n="day.thu">Jueves</td><td>12:00 – 16:30<br>20:00 – 24:00</td></tr>
-                <tr data-day="vie"><td data-i18n="day.fri">Viernes</td><td>12:00 – 16:30<br>20:00 – 24:00</td></tr>
-                <tr data-day="sab"><td data-i18n="day.sat">Sábado</td><td>12:00 – 17:00<br>20:00 – 24:00</td></tr>
+                <tr data-day="dom"><td data-i18n="day.sun">Domingo</td><td class="closed" data-i18n="day.closed">Cerrado</td></tr>
+                <tr data-day="lun"><td data-i18n="day.mon">Lunes</td><td>19:00 – 00:30</td></tr>
+                <tr data-day="mar"><td data-i18n="day.tue">Martes</td><td>19:00 – 00:30</td></tr>
+                <tr data-day="mie"><td data-i18n="day.wed">Miércoles</td><td>19:00 – 00:30</td></tr>
+                <tr data-day="jue"><td data-i18n="day.thu">Jueves</td><td>19:00 – 00:30</td></tr>
+                <tr data-day="vie"><td data-i18n="day.fri">Viernes</td><td>19:00 – 00:30</td></tr>
+                <tr data-day="sab"><td data-i18n="day.sat">Sábado</td><td>13:00 – 17:00<br>19:00 – 00:00</td></tr>
               </table>
+              <p style="margin-top:10px;font-size:.8rem;color:var(--muted);line-height:1.4" data-i18n="hours.midday">Mediodía de lunes a viernes: abrimos solo con reserva previa. Escríbenos por WhatsApp.</p>
             </div>
           </li>
         </ul>
@@ -220,6 +219,7 @@
           <li><a href="index.html#legal" data-i18n="footer.legal">Aviso legal</a></li>
           <li><a href="index.html#privacy" data-i18n="footer.privacy">Política de privacidad</a></li>
           <li><a href="index.html#cookies" data-i18n="footer.cookies">Política de cookies</a></li>
+          <li><a href="#" data-cookie-manage data-i18n="footer.manage">Administrar cookies</a></li>
         </ul>
       </div>
     </div>

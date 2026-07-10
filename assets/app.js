@@ -67,6 +67,7 @@
       'footer.col3': 'Legal',
       'footer.privacy': 'Política de privacidad',
       'footer.cookies': 'Política de cookies',
+      'footer.manage': 'Administrar cookies',
       'footer.legal': 'Aviso legal',
       'footer.rights': 'Todos los derechos reservados',
 
@@ -108,10 +109,13 @@
       'form.guests.group': 'Más de 10 (grupo)',
       'form.cocido.title': '🍲 Especialidad · Cocido madrileño completo · 25 €/pax',
       'form.cocido.desc': 'Tres vuelcos clásicos. Incluye una bebida y postre o café. Se agota, conviene reservarlo.',
-      'form.cocido.unavail': ' — solo viernes mediodía',
+      'form.cocido.unavail': ' — pregúntanos por disponibilidad',
       'form.deg.title': '🍽 Menú degustación · 27,90 €/pax',
       'form.deg.desc': 'Siete pases para descubrirnos. Mínimo 2 personas. No incluye bebida ni café.',
       'form.deg.note': 'ℹ️ El menú degustación se sirve para toda la mesa.',
+      'form.grupal.title': '👥 Menú grupal · 40 €/pax',
+      'form.grupal.desc': 'Para celebraciones y grupos. Incluye bebida de bienvenida, una botella de vino cada 2 personas, café y chupito.',
+      'form.grupal.note': 'ℹ️ El menú grupal se sirve para toda la mesa.',
       'form.allergies.placeholder': 'Ej: alergia a frutos secos, sin gluten, vegetariano, sin lactosa…',
       'form.comments.placeholder': 'Cumpleaños, trona para niño, mesa tranquila, llegada con retraso…',
       'form.name.title': 'Indica nombre y apellido (mínimo dos palabras).',
@@ -151,6 +155,36 @@
       'tab.almuerzos': 'Almuerzos',
       'tab.aperitivo': 'Aperitivo',
       'tab.grupos': 'Grupos',
+
+      // Nombres de plato (carta oficial)
+      'm.bravas': 'Patatas bravas estilo Arantxa',
+      'm.ensaladilla': 'Ensaladilla rusa',
+      'm.gambas': 'Gambitas al ajillo',
+      'm.anchoas': 'Ración de anchoas con tostaditas y tomate (6 unidades)',
+      'm.calamarcitos': 'Calamarcitos a la andaluza',
+      'm.micuit': 'Micuit de foie casero',
+      'm.alcachofas': 'Alcachofas a baja temperatura con jamón ibérico y huevos de codorniz',
+      'm.tabla': 'Tabla mixta de jamón ibérico y queso curado',
+      'm.huevos': 'Huevos rotos con jamón ibérico',
+      'm.croquetas': 'Croquetas caseras de cocido (6 unidades)',
+      'm.cecina': 'Cecina de León con burrata de pistacho, pesto y rúcula',
+      'm.ens1': 'Tomate rosa del Perelló con burrata, pesto y rúcula',
+      'm.ens2': 'Tomate rosa del Perelló con ventresca y aguacate',
+      'm.tos1': 'Tosta de sardina ahumada con tomate y ralladura de lima',
+      'm.tos2': 'Tosta de jamón ibérico con foie y mermelada de cebolla',
+      'm.entrana': 'Entraña a la plancha con chimichurri y papitas baby',
+      'm.abanico': 'Abanico ibérico con patatas, huevo y padrón',
+      'm.cachopo': 'Cachopo con patatas fritas y pimientos del piquillo',
+      'm.steak': 'Steak tartar de solomillo de ternera (200 g)',
+      'm.lemonpie': 'Lemon pie',
+      'm.coco': 'Tarta de coco con dulce de leche',
+      'm.copa': 'Copa de helado de vainilla, nata, nueces, Frangelico y sirope de chocolate',
+      'm.sorbete': 'Sorbete de limón al cava',
+      'm.hlimon': 'Helado de limón',
+      'm.hturron': 'Helado de turrón',
+      'm.hvainilla': 'Helado de vainilla',
+      'm.hdubai': 'Helado de chocolate Dubái',
+      'm.hmoka': 'Helado de Moka y Mascarpone',
 
       // Almuerzos / Aperitivo / Grupos
       'cat.almuerzos.title': 'Desayunos y almuerzos',
@@ -199,7 +233,7 @@
       'cat.postres.title': 'Postres',
       'cat.postres.intro': 'Hechos en casa cada día.',
       'cat.bebidas.title': 'Bebidas',
-      'cat.bebidas.intro': 'Refrescos, cervezas, cafés, licores y combinados premium.',
+      'cat.bebidas.intro': 'Refrescos, cervezas, cafés y licores.',
       'cat.vinos.title': 'Bodega',
       'cat.vinos.intro': 'Selección de denominaciones de origen españolas.',
 
@@ -207,7 +241,7 @@
       'sugerencias.title': 'Sugerencias del día',
       'sugerencias.desc': 'Cada día preparamos platos fuera de carta según producto de mercado. Pregunta a nuestro equipo.',
       'allergen.title': 'Información sobre alérgenos',
-      'allergen.desc': 'Disponemos de información sobre alérgenos. Consulte a nuestro personal.',
+      'allergen.desc': 'Contamos con información de los 14 alérgenos de declaración obligatoria. Pregunta a nuestro personal por los alérgenos de cada plato.',
 
       // Dónde estamos page hero
       'dondePage.tagline': 'Dónde estamos',
@@ -225,6 +259,7 @@
       'day.sun': 'Domingo', 'day.mon': 'Lunes', 'day.tue': 'Martes',
       'day.wed': 'Miércoles', 'day.thu': 'Jueves', 'day.fri': 'Viernes',
       'day.sat': 'Sábado', 'day.closed': 'Cerrado',
+      'hours.midday': 'Mediodía de lunes a viernes: abrimos solo con reserva previa. Escríbenos por WhatsApp.',
 
       // Cómo llegar
       'how.eyebrow': 'Cómo llegar',
@@ -260,10 +295,12 @@
       'teaser.tomate.desc': 'Tomate rosa del Perelló con burrata, pesto y rúcula. Joya valenciana de temporada.',
       'teaser.alcachofas.name': 'Alcachofas a baja temperatura',
       'teaser.alcachofas.desc': 'Con jamón ibérico y huevos de codorniz. Producto fresco de la huerta.',
-      'teaser.cachopo.name': 'Cachopo asturiano',
-      'teaser.cachopo.desc': 'Relleno de jamón y queso, con patatas fritas y pimientos del piquillo.',
-      'teaser.chuleton.name': 'Chuletón de cerdo gallego',
-      'teaser.chuleton.desc': 'Madurado 21 días (300 g), a la brasa, en su punto.',
+      'teaser.cecina.name': 'Cecina de León con burrata',
+      'teaser.cecina.desc': 'Con burrata de pistacho, pesto y rúcula.',
+      'teaser.jamon.name': 'Jamón ibérico',
+      'teaser.jamon.desc': 'Cortado a cuchillo. En tabla mixta con queso curado.',
+      'teaser.entrecot.name': 'Entrecot trinchado',
+      'teaser.entrecot.desc': 'A la brasa y trinchado, con patatas y pimientos de padrón.',
       'teaser.tag.entrantes': 'Entrantes',
       'teaser.tag.ensaladas': 'Ensaladas',
       'teaser.tag.verduras': 'Verduras',
@@ -459,6 +496,7 @@
       'footer.col3': 'Legal',
       'footer.privacy': 'Privacy policy',
       'footer.cookies': 'Cookie policy',
+      'footer.manage': 'Manage cookies',
       'footer.legal': 'Legal notice',
       'footer.rights': 'All rights reserved',
 
@@ -500,10 +538,13 @@
       'form.guests.group': 'More than 10 (group)',
       'form.cocido.title': '🍲 Special · Traditional Madrid stew · €25/pax',
       'form.cocido.desc': 'Three classic servings. Includes one drink plus dessert or coffee. Sells out — booking recommended.',
-      'form.cocido.unavail': ' — Fridays at midday only',
+      'form.cocido.unavail': ' — ask us about availability',
       'form.deg.title': '🍽 Tasting menu · €27.90/pax',
       'form.deg.desc': 'Seven courses to get to know us. Minimum 2 people. Drinks and coffee not included.',
       'form.deg.note': 'ℹ️ The tasting menu is served for the whole table.',
+      'form.grupal.title': '👥 Group menu · €40/pax',
+      'form.grupal.desc': 'For celebrations and groups. Includes a welcome drink, one bottle of wine per 2 guests, coffee and a shot.',
+      'form.grupal.note': 'ℹ️ The group menu is served for the whole table.',
       'form.allergies.placeholder': 'E.g. nut allergy, gluten-free, vegetarian, lactose-free…',
       'form.comments.placeholder': 'Birthday, kids high chair, quiet table, running late…',
       'form.name.title': 'Please include first name and surname (at least two words).',
@@ -544,6 +585,36 @@
       'tab.aperitivo': 'Aperitif',
       'tab.grupos': 'Groups',
 
+      // Translated dish names (official menu)
+      'm.bravas': '"Arantxa" style patatas bravas',
+      'm.ensaladilla': 'Russian salad',
+      'm.gambas': 'Garlic prawns',
+      'm.anchoas': 'Anchovy portion with toasts and tomato (6 pieces)',
+      'm.calamarcitos': 'Andalusian-style baby squid',
+      'm.micuit': 'Homemade foie gras micuit',
+      'm.alcachofas': 'Low-temperature artichokes with Iberian ham and quail eggs',
+      'm.tabla': 'Mixed platter of Iberian ham and cured cheese',
+      'm.huevos': 'Scrambled eggs with Iberian ham',
+      'm.croquetas': 'Homemade stew croquettes (6 pieces)',
+      'm.cecina': '"Cecina de León" with pistachio burrata, pesto and arugula',
+      'm.ens1': '"El Perelló" pink tomato with burrata, pesto and arugula',
+      'm.ens2': '"El Perelló" pink tomato with tuna belly and avocado',
+      'm.tos1': 'Smoked sardine toast with tomato and lime zest',
+      'm.tos2': 'Iberian ham toast with fresh foie gras and onion jam',
+      'm.entrana': 'Grilled "entraña" (skirt steak) with chimichurri and baby potatoes',
+      'm.abanico': 'Iberian "abanico" with potatoes, fried egg and Padrón peppers',
+      'm.cachopo': 'Asturian "cachopo" with french fries and Piquillo peppers',
+      'm.steak': 'Beef tenderloin steak tartar (200 g)',
+      'm.lemonpie': 'Lemon pie',
+      'm.coco': 'Coconut cake with sweet cream',
+      'm.copa': 'Ice cream sundae (vanilla ice cream, whipped cream, walnuts, Frangelico and chocolate syrup)',
+      'm.sorbete': 'Lemon sorbet with cava',
+      'm.hlimon': 'Lemon ice cream',
+      'm.hturron': 'Nougat ice cream',
+      'm.hvainilla': 'Vanilla ice cream',
+      'm.hdubai': 'Dubai chocolate ice cream',
+      'm.hmoka': 'Mocha and mascarpone ice cream',
+
       // Almuerzos / Aperitivo / Grupos
       'cat.almuerzos.title': 'Breakfast & light lunch',
       'cat.almuerzos.intro': 'To start the day or mid-morning, Valencian style.',
@@ -575,6 +646,64 @@
       'gr.entrecot.n': 'Sliced entrecôte',
       'gr.postres.n': 'Desserts',
 
+      // --- Carta EN (platos/bebidas/vinos/alérgenos reescritos del Drive) ---
+      'tx.clochinas': 'Valencian clóchinas (mussels) with green mojo, wine and lemon',
+      'tx.pulpo': 'Grilled octopus with paprika mashed potato',
+      'tx.calamarxl': 'XL grilled beach squid with green mojo and potatoes',
+      'tx.burger': 'Angus burger with foie gras and caramelized onion',
+      'tx.torreznos': 'Torreznos de Soria (crispy pork belly)',
+      'tx.entrecot': 'Sliced entrecôte with potatoes and Padrón peppers',
+      'tx.sh.refrescos': 'Soft drinks',
+      'tx.sh.cervezas': 'Beers',
+      'tx.sh.cafes': 'Coffees & teas',
+      'tx.sh.licores': 'Liqueurs & spirits',
+      'tx.cocacola': 'Coca-Cola zero / regular',
+      'tx.fanta': 'Fanta orange / lemon',
+      'tx.bitterkas': 'Bitter Kas (non-alcoholic)',
+      'tx.tonica': 'Tonic · Tonic zero',
+      'tx.agua': 'Still water · Sparkling water',
+      'tx.zumo': 'Pineapple / peach juice',
+      'tx.cana': 'Águila 1900 · small draught',
+      'tx.doble': 'Águila 1900 · large draught',
+      'tx.jarra': 'Beer stein',
+      'tx.tercio': '33cl bottle.',
+      'tx.cafesolo': 'Espresso',
+      'tx.cafecortado': 'Cortado (espresso with a dash of milk)',
+      'tx.cafeconleche': 'White coffee',
+      'tx.cafebombon': 'Café bombón (espresso with condensed milk)',
+      'tx.infusiones': 'Herbal teas',
+      'tx.vermut': 'Vermouth (white / red)',
+      'tx.licorhierbas': 'Herb liqueur',
+      'tx.cremaorujo': 'Orujo cream liqueur',
+      'tx.cremaarroz': 'Rice cream liqueur',
+      'tx.sh.tintos': 'Reds',
+      'tx.sh.blancos': 'Whites · Rosés · Cavas',
+      'tx.sh.copa': 'Wines by the glass',
+      'tx.v.baigorri': 'D.O. Rioja · Tempranillo · 14 months in barrel.',
+      'tx.v.valdehermoso': 'D.O. Ribera del Duero · Tinta del País · 18 months in barrel.',
+      'tx.v.rodero': 'D.O. Ribera del Duero · Tinta fina · 9 months in barrel.',
+      'tx.v.lia': 'D.O. Ribera del Duero · Tinta fina.',
+      'tx.v.tarima': 'D.O. Alicante · Monastrell · 14 months in barrel.',
+      'tx.v.bobal': 'D.O. Utiel-Requena · Bobal · 9 months in barrel.',
+      'tx.v.venta': 'D.O. Valencia · Tempranillo, Cabernet, Merlot, Syrah · 12 months in barrel.',
+      'tx.v.dominio': 'Cava · Brut nature · Macabeo.',
+      'tx.liarosado': 'Lía rosé',
+      'tx.valenciano': 'Valencian wine',
+      'tx.al.gluten': 'Gluten',
+      'tx.al.crustaceos': 'Crustaceans',
+      'tx.al.huevos': 'Eggs',
+      'tx.al.pescado': 'Fish',
+      'tx.al.cacahuetes': 'Peanuts',
+      'tx.al.soja': 'Soy',
+      'tx.al.lacteos': 'Dairy',
+      'tx.al.frutoscascara': 'Tree nuts',
+      'tx.al.apio': 'Celery',
+      'tx.al.mostaza': 'Mustard',
+      'tx.al.sesamo': 'Sesame',
+      'tx.al.sulfitos': 'Sulphites',
+      'tx.al.altramuces': 'Lupin',
+      'tx.al.moluscos': 'Molluscs',
+
       // Section heads + intros
       'cat.entrantes.title': 'Starters to share',
       'cat.entrantes.intro': 'To start, snack, toast.',
@@ -591,7 +720,7 @@
       'cat.postres.title': 'Desserts',
       'cat.postres.intro': 'Made in-house every day.',
       'cat.bebidas.title': 'Drinks',
-      'cat.bebidas.intro': 'Soft drinks, beers, coffees, liqueurs and premium cocktails.',
+      'cat.bebidas.intro': 'Soft drinks, beers, coffees and liqueurs.',
       'cat.vinos.title': 'Wine cellar',
       'cat.vinos.intro': 'Selection of Spanish denominations of origin.',
 
@@ -599,7 +728,7 @@
       'sugerencias.title': 'Today\'s suggestions',
       'sugerencias.desc': 'Each day we prepare off-menu dishes based on market produce. Ask our team.',
       'allergen.title': 'Allergen information',
-      'allergen.desc': 'Allergen information is available. Please ask our staff.',
+      'allergen.desc': 'We hold information on the 14 major allergens. Please ask our staff about the allergens in each dish.',
 
       // Find us page hero
       'dondePage.tagline': 'Find us',
@@ -617,6 +746,7 @@
       'day.sun': 'Sunday', 'day.mon': 'Monday', 'day.tue': 'Tuesday',
       'day.wed': 'Wednesday', 'day.thu': 'Thursday', 'day.fri': 'Friday',
       'day.sat': 'Saturday', 'day.closed': 'Closed',
+      'hours.midday': 'Midday Monday to Friday: open by prior reservation only. Message us on WhatsApp.',
 
       // How to get there
       'how.eyebrow': 'How to get there',
@@ -652,10 +782,12 @@
       'teaser.tomate.desc': 'Pink tomato from Perelló with burrata, pesto and rocket. A seasonal Valencian gem.',
       'teaser.alcachofas.name': 'Slow-cooked artichokes',
       'teaser.alcachofas.desc': 'With Iberian ham and quail eggs. Fresh produce from the garden.',
-      'teaser.cachopo.name': 'Asturian cachopo',
-      'teaser.cachopo.desc': 'Filled with ham and cheese, with chips and piquillo peppers.',
-      'teaser.chuleton.name': 'Galician pork chop',
-      'teaser.chuleton.desc': '21-day aged (300 g), grilled to perfection.',
+      'teaser.cecina.name': 'Cecina de León with burrata',
+      'teaser.cecina.desc': 'With pistachio burrata, pesto and arugula.',
+      'teaser.jamon.name': 'Iberian ham',
+      'teaser.jamon.desc': 'Hand-carved. Served on a mixed platter with cured cheese.',
+      'teaser.entrecot.name': 'Sliced entrecôte',
+      'teaser.entrecot.desc': 'Grilled and sliced, with potatoes and Padrón peppers.',
       'teaser.tag.entrantes': 'Starters',
       'teaser.tag.ensaladas': 'Salads',
       'teaser.tag.verduras': 'Vegetables',
@@ -834,6 +966,7 @@
     });
     localStorage.setItem('arantxa.lang', lang);
     updateStatusFloat(lang);
+    syncConsentUI();
   }
 
   // ---------- NAV ----------
@@ -891,20 +1024,40 @@
   }
 
   // ---------- MAP LAZY ----------
+  // ---------- MAP (condicionado al consentimiento de Google Maps) ----------
+  const MAP_URL = 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3079.7234!2d-0.3681318!3d39.4640740!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0d6049e8f947fa4b%3A0xd283f5239c1b8ba6!2sRestaurante%20Arantxa!5e0!3m2!1ses!2ses!4v1700000000000';
+  const mapWraps = [];
+
+  function renderMap(wrap) {
+    if (!wrap) return;
+    const L = COOKIE_LABELS[consentLang()];
+    if (getConsent() === 'all') {
+      if (wrap.classList.contains('map-loaded')) return;
+      wrap.innerHTML = '<iframe src="' + MAP_URL + '" width="100%" height="100%" style="border:0" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Mapa de Restaurante Arantxa"></iframe>';
+      wrap.classList.add('map-loaded', 'loaded');
+    } else {
+      wrap.classList.remove('map-loaded', 'loaded');
+      wrap.innerHTML =
+        '<div class="map-consent" style="display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;height:100%;min-height:280px;padding:28px;text-align:center;color:var(--muted)">' +
+          '<svg viewBox="0 0 24 24" fill="currentColor" width="32" height="32" style="opacity:.6"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 110-5 2.5 2.5 0 010 5z"/></svg>' +
+          '<strong style="color:var(--cream,#f5ede0)">' + L.mapTitle + '</strong>' +
+          '<span style="font-size:.9rem;max-width:340px">' + L.mapText + '</span>' +
+          '<button type="button" class="btn btn-primary" data-map-load style="margin-top:6px">' + L.mapBtn + '</button>' +
+        '</div>';
+      const btn = wrap.querySelector('[data-map-load]');
+      if (btn) btn.addEventListener('click', () => {
+        localStorage.setItem('arantxa.consent', 'all');
+        renderMap(wrap);
+      });
+    }
+  }
+  function refreshMaps() { mapWraps.forEach(renderMap); }
+
   function setupMap(id) {
     const wrap = document.getElementById(id);
     if (!wrap) return;
-    const mapUrl = 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3079.7234!2d-0.3681318!3d39.4640740!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0d6049e8f947fa4b%3A0xd283f5239c1b8ba6!2sRestaurante%20Arantxa!5e0!3m2!1ses!2ses!4v1700000000000';
-    let loaded = false;
-    function load() {
-      if (loaded) return;
-      loaded = true;
-      wrap.innerHTML = '<iframe src="' + mapUrl + '" width="100%" height="100%" style="border:0" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Mapa de Restaurante Arantxa"></iframe>';
-      wrap.classList.add('loaded');
-    }
-    wrap.addEventListener('click', load);
-    wrap.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); load(); } });
-    if (wrap.dataset.eager === 'true') load();
+    if (mapWraps.indexOf(wrap) === -1) mapWraps.push(wrap);
+    renderMap(wrap);
   }
 
   // ---------- CARTA TABS (carta.html) ----------
@@ -952,18 +1105,69 @@
     }
   }
 
-  // ---------- COOKIES ----------
-  function setupCookies() {
-    const banner = document.getElementById('cookies');
-    if (!banner) return;
-    if (localStorage.getItem('arantxa.cookies')) return;
-    setTimeout(() => banner.classList.add('show'), 800);
-    banner.querySelectorAll('button').forEach(b => {
-      b.addEventListener('click', () => {
-        localStorage.setItem('arantxa.cookies', b.dataset.action || 'accept');
-        banner.classList.remove('show');
-      });
+  // ---------- CONSENTIMIENTO DE COOKIES ----------
+  // Modelo: localStorage 'arantxa.consent' = 'all' (necesarias + Google Maps)
+  // | 'necessary' (solo necesarias, sin Maps) | null (sin decidir).
+  const COOKIE_LABELS = {
+    es: {
+      text: 'Usamos cookies necesarias para que el sitio funcione y, si lo aceptas, cookies de Google Maps para mostrar el mapa. No usamos cookies de marketing.',
+      accept: 'Aceptar todo',
+      necessary: 'Solo necesarias',
+      policy: 'Más info',
+      mapTitle: 'Mapa desactivado',
+      mapText: 'Para mostrar el mapa cargamos Google Maps, que instala cookies propias. Actívalo si quieres verlo.',
+      mapBtn: 'Cargar mapa'
+    },
+    en: {
+      text: 'We use necessary cookies for the site to work and, if you accept, Google Maps cookies to show the map. We use no marketing cookies.',
+      accept: 'Accept all',
+      necessary: 'Necessary only',
+      policy: 'More info',
+      mapTitle: 'Map disabled',
+      mapText: 'To show the map we load Google Maps, which sets its own cookies. Enable it if you want to see it.',
+      mapBtn: 'Load map'
+    }
+  };
+
+  function consentLang() { return localStorage.getItem('arantxa.lang') === 'en' ? 'en' : 'es'; }
+  function getConsent() { return localStorage.getItem('arantxa.consent'); }
+
+  let cookieBanner = null;
+  function buildCookieBanner() {
+    const L = COOKIE_LABELS[consentLang()];
+    let el = document.getElementById('cookies');
+    if (!el) { el = document.createElement('div'); el.id = 'cookies'; el.className = 'cookies'; document.body.appendChild(el); }
+    const wasShown = el.classList.contains('show');
+    el.innerHTML =
+      '<p>' + L.text + ' <a href="#" class="cookie-policy-link" style="color:inherit;text-decoration:underline">' + L.policy + '</a></p>' +
+      '<div class="cookies-actions">' +
+        '<button type="button" class="reject" data-consent="necessary">' + L.necessary + '</button>' +
+        '<button type="button" class="accept" data-consent="all">' + L.accept + '</button>' +
+      '</div>';
+    el.querySelectorAll('button[data-consent]').forEach(b => b.addEventListener('click', () => {
+      localStorage.setItem('arantxa.consent', b.dataset.consent);
+      el.classList.remove('show');
+      refreshMaps();
+    }));
+    const policyLink = el.querySelector('.cookie-policy-link');
+    if (policyLink) policyLink.addEventListener('click', e => {
+      e.preventDefault();
+      const modal = document.getElementById('modalCookies');
+      if (modal) modal.classList.add('open');
+      else location.href = 'index.html#cookies';
     });
+    if (wasShown) el.classList.add('show');
+    cookieBanner = el;
+  }
+
+  function showCookieBanner() { if (!cookieBanner) buildCookieBanner(); setTimeout(() => cookieBanner.classList.add('show'), 40); }
+  function syncConsentUI() { if (cookieBanner) buildCookieBanner(); refreshMaps(); }
+
+  function setupConsent() {
+    buildCookieBanner();
+    if (!getConsent()) setTimeout(() => cookieBanner.classList.add('show'), 800);
+    document.querySelectorAll('[data-cookie-manage]').forEach(a =>
+      a.addEventListener('click', e => { e.preventDefault(); showCookieBanner(); }));
   }
 
   // ---------- FORM ANTI-SPAM ----------
@@ -1043,16 +1247,16 @@
 
         const dow = day.getDay(); // 0=Sun, 1=Mon
         const isPast = day < today;
-        const isMonday = dow === 1;
+        const isSunday = dow === 0;
         const isOtherMonth = day.getMonth() !== view.getMonth();
 
         if (isOtherMonth) cell.classList.add('other-month');
         if (sameDay(day, today)) cell.classList.add('today');
         if (selected && sameDay(day, selected)) cell.classList.add('selected');
-        if (isPast || isMonday) {
+        if (isPast || isSunday) {
           cell.classList.add('disabled');
           cell.disabled = true;
-          if (isMonday) cell.title = 'Cerrado los lunes';
+          if (isSunday) cell.title = 'Cerrado los domingos';
         } else {
           cell.addEventListener('click', () => choose(day));
         }
@@ -1132,17 +1336,21 @@
     const cocidoCheck = document.getElementById('r-cocido');
     const degRow = document.querySelector('.checkbox-card[for="r-degustacion"]');
     const degCheck = document.getElementById('r-degustacion');
+    const grupalCheck = document.getElementById('r-grupal');
 
     // Service hours model: comida y cena por día.
     // Último slot ~1 h antes del cierre para garantizar servicio.
+    // Cena entre semana: 19:00–00:30 (último slot ~1 h antes del cierre).
+    const DINNER = ['19:00','19:30','20:00','20:30','21:00','21:30','22:00','22:30','23:00','23:30'];
     const SHIFTS = {
-      0: { lunch: ['11:30','12:00','12:30','13:00','13:30','14:00','14:30','15:00','15:30'] },           // domingo
-      1: null,                                                                                            // lunes (cerrado)
-      2: { lunch: ['12:30','13:00','13:30','14:00','14:30','15:00'], dinner: ['20:00','20:30','21:00','21:30','22:00','22:30'] }, // martes
-      3: { lunch: ['12:30','13:00','13:30','14:00','14:30','15:00'], dinner: ['20:00','20:30','21:00','21:30','22:00','22:30'] }, // miércoles
-      4: { lunch: ['12:30','13:00','13:30','14:00','14:30','15:00'], dinner: ['20:00','20:30','21:00','21:30','22:00','22:30'] }, // jueves
-      5: { lunch: ['12:30','13:00','13:30','14:00','14:30','15:00'], dinner: ['20:00','20:30','21:00','21:30','22:00','22:30'] }, // viernes
-      6: { lunch: ['12:30','13:00','13:30','14:00','14:30','15:00','15:30'], dinner: ['20:00','20:30','21:00','21:30','22:00','22:30'] } // sábado
+      0: null,                       // domingo (cerrado)
+      1: { dinner: DINNER },         // lunes     19:00–00:30
+      2: { dinner: DINNER },         // martes    19:00–00:30
+      3: { dinner: DINNER },         // miércoles 19:00–00:30
+      4: { dinner: DINNER },         // jueves    19:00–00:30
+      5: { dinner: DINNER },         // viernes   19:00–00:30
+      6: { lunch: ['13:00','13:30','14:00','14:30','15:00','15:30','16:00'],
+           dinner: ['19:00','19:30','20:00','20:30','21:00','21:30','22:00','22:30','23:00'] } // sábado 13–17 · 19–24
     };
     const DAY_NAMES = ['domingo','lunes','martes','miércoles','jueves','viernes','sábado'];
     const MONTH_NAMES = ['enero','febrero','marzo','abril','mayo','junio','julio','agosto','septiembre','octubre','noviembre','diciembre'];
@@ -1205,9 +1413,9 @@
       const date = new Date(y, m - 1, d);
       const dayIdx = date.getDay();
 
-      // Calendario ya bloquea los lunes, así que aquí no debería entrar.
+      // Calendario ya bloquea los domingos, así que aquí no debería entrar.
       // Fallback defensivo por si el input es nativo (sin Flatpickr/cal).
-      if (dayIdx === 1) {
+      if (dayIdx === 0) {
         date.setDate(date.getDate() + 1);
         dateInput.value = fmtISO(date);
         return onDateChange();
@@ -1219,8 +1427,10 @@
       timeRow.style.display = '';
       timeSelect.required = true;
 
-      // Aviso de servicio en domingo (solo comida)
-      timeHint.textContent = (dayIdx === 0) ? 'Los domingos solo servimos comida.' : '';
+      // Mediodía de lunes a viernes: solo con reserva previa por WhatsApp.
+      timeHint.textContent = (dayIdx >= 1 && dayIdx <= 5)
+        ? 'Mediodía de lunes a viernes: solo con reserva previa. Escríbenos directamente por WhatsApp.'
+        : '';
 
       updateCocidoVisibility();
     }
@@ -1231,7 +1441,7 @@
 
     // Marcar visualmente checkbox-cards y aplicar exclusión mutua
     // (cocido y degustación no pueden estar marcados a la vez).
-    const exclusives = [cocidoCheck, degCheck].filter(Boolean);
+    const exclusives = [cocidoCheck, degCheck, grupalCheck].filter(Boolean);
     exclusives.forEach(cb => {
       const card = cb.closest('.checkbox-card');
       cb.addEventListener('change', () => {
@@ -1258,7 +1468,7 @@
       const [y, m, d] = dateInput.value.split('-').map(Number);
       const date = new Date(y, m - 1, d);
       const dayIdx = date.getDay();
-      if (dayIdx === 1) return;
+      if (dayIdx === 0) return;
       if (!form.guests.value) { form.guests.focus(); return; }
       if (!form.time.value) { form.time.focus(); return; }
       const nameVal = form.name.value.trim();
@@ -1306,13 +1516,16 @@
 
       const cocido = cocidoCheck.checked;
       const deg = degCheck.checked;
-      if (cocido || deg) {
+      const grupal = grupalCheck && grupalCheck.checked;
+      if (cocido || deg || grupal) {
         lines.push('');
         lines.push(bi('*Menú especial:*', '*Special menu:*'));
         if (cocido) lines.push(bi('  · Cocido madrileño completo (25 €/pax)',
                                    '  · Traditional Madrid stew (€25/pax)'));
         if (deg)    lines.push(bi('  · Menú degustación 27,90 €/pax — para toda la mesa',
                                    '  · Tasting menu €27.90/pax — for the whole table'));
+        if (grupal) lines.push(bi('  · Menú grupal 40 €/pax',
+                                   '  · Group menu €40/pax'));
       }
 
       const allergies = form.allergies.value.trim();
@@ -1337,7 +1550,7 @@
       lines.push(bi('¡Gracias!', 'Thanks!'));
 
       const msg = encodeURIComponent(lines.join('\n'));
-      window.open(`https://wa.me/34651413489?text=${msg}`, '_blank', 'noopener');
+      window.open(`https://wa.me/34663209793?text=${msg}`, '_blank', 'noopener');
     });
 
     // Prefill via URL params (?cocido=1 = next Friday at lunch + cocido check)
@@ -1379,14 +1592,16 @@
 
   // ---------- STATUS FLOAT: abierto / cerrado ----------
   // Horario en minutos desde medianoche. getDay(): 0 dom .. 6 sáb.
+  // Minutos desde medianoche. Un cierre > 1440 indica que el tramo cruza
+  // medianoche (p. ej. 1470 = 00:30 del día siguiente).
   const OPEN_HOURS = {
-    0: [[690, 1020]],                 // Domingo   11:30–17:00
-    1: [],                            // Lunes     cerrado
-    2: [[720, 990], [1200, 1440]],    // Martes    12:00–16:30 · 20:00–24:00
-    3: [[720, 990], [1200, 1440]],    // Miércoles
-    4: [[720, 990], [1200, 1440]],    // Jueves
-    5: [[720, 990], [1200, 1440]],    // Viernes
-    6: [[720, 1020], [1200, 1440]]    // Sábado    12:00–17:00 · 20:00–24:00
+    0: [],                            // Domingo   cerrado
+    1: [[1140, 1470]],                // Lunes     19:00–00:30
+    2: [[1140, 1470]],                // Martes    19:00–00:30
+    3: [[1140, 1470]],                // Miércoles 19:00–00:30
+    4: [[1140, 1470]],                // Jueves    19:00–00:30
+    5: [[1140, 1470]],                // Viernes   19:00–00:30
+    6: [[780, 1020], [1140, 1440]]    // Sábado    13:00–17:00 · 19:00–24:00
   };
 
   const STATUS_LABELS = {
@@ -1410,6 +1625,16 @@
   function computeStatus(now) {
     const day = now.getDay();
     const mins = now.getHours() * 60 + now.getMinutes();
+
+    // ¿Abiertos por un tramo de AYER que cruza medianoche? (p. ej. lunes 00:15)
+    const yday = (day + 6) % 7;
+    for (const [, c] of (OPEN_HOURS[yday] || [])) {
+      if (c > 1440 && mins < c - 1440) {
+        const closeAt = c - 1440;
+        return { open: true, soon: (closeAt - mins) <= 30, closeAt };
+      }
+    }
+    // Tramos de HOY
     const ranges = OPEN_HOURS[day] || [];
     for (const [o, c] of ranges) {
       if (mins >= o && mins < c) return { open: true, soon: (c - mins) <= 30, closeAt: c };
@@ -1469,7 +1694,7 @@
     setupMap('mapWrap');
     setupTabs();
     setupModals();
-    setupCookies();
+    setupConsent();
     setupForms();
     setupReservationForm();
     setupHoursToday();

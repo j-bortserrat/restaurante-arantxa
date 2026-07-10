@@ -24,3 +24,6 @@ node_modules/
 
 # Temp / generated fonts cache
 /tmp/
+
+# Netlify CLI (estado local)
+.netlify/

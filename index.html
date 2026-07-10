@@ -78,11 +78,9 @@
     "hasMap": "https://maps.app.goo.gl/GXvUJ25aapMyuczh7",
     "hasMenu": "https://restaurantearantxa.com/carta",
     "openingHoursSpecification": [
-      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Sunday", "opens": "11:30", "closes": "17:00" },
-      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Tuesday","Wednesday","Thursday","Friday"], "opens": "12:00", "closes": "16:30" },
-      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Tuesday","Wednesday","Thursday","Friday"], "opens": "20:00", "closes": "24:00" },
-      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "12:00", "closes": "17:00" },
-      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "20:00", "closes": "24:00" }
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "19:00", "closes": "00:30" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "13:00", "closes": "17:00" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "19:00", "closes": "00:00" }
     ],
     "aggregateRating": {
       "@type": "AggregateRating",
@@ -257,24 +255,36 @@
       </article>
 
       <article class="dish">
-        <div class="dish-img"><img src="assets/img/plato-cachopo.jpg" alt="Cachopo asturiano de Arantxa"></div>
+        <div class="dish-img"><img src="assets/img/plato-cecina-burrata.jpg" alt="Cecina de León con burrata de pistacho, pesto y rúcula"></div>
         <div class="dish-body">
-          <h3 class="dish-name" data-i18n="teaser.cachopo.name">Cachopo asturiano</h3>
-          <p class="dish-desc" data-i18n="teaser.cachopo.desc">Relleno de jamón y queso, con patatas fritas y pimientos del piquillo.</p>
+          <h3 class="dish-name" data-i18n="teaser.cecina.name">Cecina de León con burrata</h3>
+          <p class="dish-desc" data-i18n="teaser.cecina.desc">Con burrata de pistacho, pesto y rúcula.</p>
           <div class="dish-foot">
-            <span class="dish-tag" data-i18n="teaser.tag.carnes">Carnes</span>
-            <span class="dish-price">26 €</span>
+            <span class="dish-tag" data-i18n="teaser.tag.entrantes">Entrantes</span>
+            <span class="dish-price">20 €</span>
           </div>
         </div>
       </article>
 
-      <article class="dish dish-no-zoom">
-        <div class="dish-img"><img src="assets/img/plato-chuleton-cerdo.jpg" alt="Chuletón de cerdo gallego madurado 21 días" style="object-fit:contain;background:#1a1a1a"></div>
+      <article class="dish">
+        <div class="dish-img"><img src="assets/img/plato-entrecot.jpg" alt="Entrecot trinchado con patatas y pimientos de padrón"></div>
         <div class="dish-body">
-          <h3 class="dish-name" data-i18n="teaser.chuleton.name">Chuletón de cerdo gallego</h3>
-          <p class="dish-desc" data-i18n="teaser.chuleton.desc">Madurado 21 días (300 g), a la brasa, en su punto.</p>
+          <h3 class="dish-name" data-i18n="teaser.entrecot.name">Entrecot trinchado</h3>
+          <p class="dish-desc" data-i18n="teaser.entrecot.desc">A la brasa y trinchado, con patatas y pimientos de padrón.</p>
           <div class="dish-foot">
             <span class="dish-tag" data-i18n="teaser.tag.carnes">Carnes</span>
+            <span class="dish-price">25 €</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="dish">
+        <div class="dish-img"><img src="assets/img/plato-jamon.jpg" alt="Jamón ibérico cortado a cuchillo"></div>
+        <div class="dish-body">
+          <h3 class="dish-name" data-i18n="teaser.jamon.name">Jamón ibérico</h3>
+          <p class="dish-desc" data-i18n="teaser.jamon.desc">Cortado a cuchillo. En tabla mixta con queso curado.</p>
+          <div class="dish-foot">
+            <span class="dish-tag" data-i18n="teaser.tag.entrantes">Entrantes</span>
             <span class="dish-price">18 €</span>
           </div>
         </div>
@@ -288,6 +298,7 @@
 </section>
 
 <!-- COCIDO VIERNES (slim banner) -->
+<!-- OCULTO temporalmente: no hay servicio de viernes mediodía. Para reactivar el cocido, borra esta línea de comentario y la de cierre de abajo.
 <section id="cocido" style="padding:60px 0;background:var(--cream)">
   <div class="container">
     <div class="cocido-strip reveal" style="margin-bottom:0">
@@ -302,6 +313,7 @@
     </div>
   </div>
 </section>
+-->
 
 <!-- RESERVAS TEASER -->
 <section class="reservas-section" id="reservar-teaser">
@@ -402,14 +414,15 @@
         <h3 data-i18n="contact.hours">Horario</h3>
         <p style="color:var(--muted);font-size:.95rem;margin-bottom:18px" data-i18n="contact.subtitle">Reserva online o llámanos.</p>
         <table class="hours-table">
-          <tr data-day="dom"><td data-i18n="day.sun">Domingo</td><td>11:30 – 17:00</td></tr>
-          <tr data-day="lun"><td data-i18n="day.mon">Lunes</td><td class="closed" data-i18n="day.closed">Cerrado</td></tr>
-          <tr data-day="mar"><td data-i18n="day.tue">Martes</td><td>12:00 – 16:30<br>20:00 – 24:00</td></tr>
-          <tr data-day="mie"><td data-i18n="day.wed">Miércoles</td><td>12:00 – 16:30<br>20:00 – 24:00</td></tr>
-          <tr data-day="jue"><td data-i18n="day.thu">Jueves</td><td>12:00 – 16:30<br>20:00 – 24:00</td></tr>
-          <tr data-day="vie"><td data-i18n="day.fri">Viernes</td><td>12:00 – 16:30<br>20:00 – 24:00</td></tr>
-          <tr data-day="sab"><td data-i18n="day.sat">Sábado</td><td>12:00 – 17:00<br>20:00 – 24:00</td></tr>
+          <tr data-day="dom"><td data-i18n="day.sun">Domingo</td><td class="closed" data-i18n="day.closed">Cerrado</td></tr>
+          <tr data-day="lun"><td data-i18n="day.mon">Lunes</td><td>19:00 – 00:30</td></tr>
+          <tr data-day="mar"><td data-i18n="day.tue">Martes</td><td>19:00 – 00:30</td></tr>
+          <tr data-day="mie"><td data-i18n="day.wed">Miércoles</td><td>19:00 – 00:30</td></tr>
+          <tr data-day="jue"><td data-i18n="day.thu">Jueves</td><td>19:00 – 00:30</td></tr>
+          <tr data-day="vie"><td data-i18n="day.fri">Viernes</td><td>19:00 – 00:30</td></tr>
+          <tr data-day="sab"><td data-i18n="day.sat">Sábado</td><td>13:00 – 17:00<br>19:00 – 00:00</td></tr>
         </table>
+        <p style="margin-top:10px;font-size:.8rem;color:var(--muted);line-height:1.4" data-i18n="hours.midday">Mediodía de lunes a viernes: abrimos solo con reserva previa. Escríbenos por WhatsApp.</p>
 
         <div class="contact-quick">
           <div>
@@ -469,6 +482,7 @@
           <li><a href="#" data-modal-open="modalLegal" data-i18n="footer.legal">Aviso legal</a></li>
           <li><a href="#" data-modal-open="modalPrivacy" data-i18n="footer.privacy">Política de privacidad</a></li>
           <li><a href="#" data-modal-open="modalCookies" data-i18n="footer.cookies">Política de cookies</a></li>
+          <li><a href="#" data-cookie-manage data-i18n="footer.manage">Administrar cookies</a></li>
         </ul>
       </div>
     </div>
@@ -546,13 +560,15 @@
   <div class="modal-box">
     <button class="modal-close" data-modal-close aria-label="Cerrar">✕</button>
     <h3>Política de cookies</h3>
-    <p>Esta web utiliza el mínimo imprescindible de cookies y almacenamiento local. No usamos cookies de analítica de comportamiento ni de publicidad.</p>
-    <h4>Almacenamiento técnico (necesario)</h4>
-    <p>Guardamos en tu navegador (localStorage) el idioma elegido y tu preferencia sobre cookies. Es imprescindible para el funcionamiento del sitio, no requiere consentimiento y no se comparte con terceros.</p>
-    <h4>Google Maps (solo bajo tu acción)</h4>
-    <p>El mapa de la página «Dónde estamos» se carga únicamente cuando pulsas sobre él. En ese momento Google puede instalar sus propias cookies, sujetas a la <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">política de privacidad de Google</a>.</p>
+    <p>Usamos el mínimo imprescindible. Desde el aviso de cookies puedes «Aceptar todo» o «Solo necesarias», y cambiar tu elección cuando quieras con el enlace <strong>«Administrar cookies»</strong> del pie de página.</p>
+    <h4>Cookies necesarias (siempre activas)</h4>
+    <p>Almacenamiento técnico en tu navegador (localStorage) para recordar el idioma y tu preferencia de cookies. Son imprescindibles para el funcionamiento del sitio, no se comparten con terceros y no requieren consentimiento.</p>
+    <h4>Google Maps (opcional)</h4>
+    <p>El mapa de la página «Dónde estamos» <strong>solo se carga si aceptas estas cookies</strong>. Al hacerlo, Google puede instalar sus propias cookies, sujetas a la <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">política de privacidad de Google</a>. Si eliges «Solo necesarias», el mapa no se muestra; en su lugar verás un botón para activarlo puntualmente.</p>
+    <h4>Marketing y analítica</h4>
+    <p>No utilizamos cookies de publicidad ni de analítica de comportamiento.</p>
     <h4>Gestión</h4>
-    <p>Puedes borrar o bloquear el almacenamiento y las cookies desde la configuración de tu navegador en cualquier momento.</p>
+    <p>Puedes cambiar tu consentimiento con «Administrar cookies» (pie de página) o borrar y bloquear las cookies desde la configuración de tu navegador en cualquier momento.</p>
   </div>
 </div>
 
