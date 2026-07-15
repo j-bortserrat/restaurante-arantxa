@@ -22,7 +22,7 @@
       'about.eyebrow': 'El local',
       'about.title': 'Un rincón familiar en València',
       'about.p1': 'Arantxa es un restaurante de barrio donde se seleccionan los productos manualmente cada día: tomate rosa del Perelló, jamón ibérico, pescado fresco y carnes seleccionadas. Recetas tradicionales, raciones generosas y un ambiente que te hace sentir como en casa.',
-      'about.p2': 'Una carta corta y honesta, una bodega de vinos de denominaciones de origen españolas y, los viernes, nuestro cocido madrileño completo por 25 €. Eso es Arantxa.',
+      'about.p2': 'Una carta corta y honesta con tapas para compartir, mariscos y carnes a la brasa —no te vayas sin probar nuestros cachopos—, y una bodega de vinos de denominaciones de origen españolas. Los viernes a mediodía, nuestro cocido madrileño completo por 25 € (solo en temporada). Eso es Arantxa.',
       'about.stat1.num': '4,9',
       'about.stat1.lbl': 'Valoración TripAdvisor',
       'about.stat2.num': '42+',
@@ -61,7 +61,7 @@
       'where.sub': 'En el centro de L\'Eixample, a pocos minutos de la Estación del Norte y la Plaza de Toros.',
       'where.cta': 'Cómo llegar',
 
-      'footer.tagline': 'Cocina de producto en València. Reservas por WhatsApp y teléfono.',
+      'footer.tagline': 'Cocina española tradicional. Reservas por WhatsApp y teléfono.',
       'footer.col1': 'Navegación',
       'footer.col2': 'Contacto',
       'footer.col3': 'Legal',
@@ -116,6 +116,9 @@
       'form.grupal.title': '👥 Menú grupal · 40 €/pax',
       'form.grupal.desc': 'Para celebraciones y grupos. Incluye bebida de bienvenida, una botella de vino cada 2 personas, café y chupito.',
       'form.grupal.note': 'ℹ️ El menú grupal se sirve para toda la mesa.',
+      'form.menu.label': 'Elige tu opción',
+      'form.carta.title': '🍴 A la carta',
+      'form.carta.desc': 'Pides libremente de nuestra carta.',
       'form.allergies.placeholder': 'Ej: alergia a frutos secos, sin gluten, vegetariano, sin lactosa…',
       'form.comments.placeholder': 'Cumpleaños, trona para niño, mesa tranquila, llegada con retraso…',
       'form.name.title': 'Indica nombre y apellido (mínimo dos palabras).',
@@ -229,7 +232,7 @@
       'cat.carnes.title': 'Carnes',
       'cat.carnes.intro': 'A la brasa, en su punto, producto seleccionado.',
       'cat.degustacion.title': 'Menú degustación',
-      'cat.degustacion.intro': 'Cuatro pases principales para descubrirnos. Mínimo 2 personas.',
+      'cat.degustacion.intro': 'Mínimo 2 personas.',
       'deg.p1': '1 · Patatas bravas estilo Arantxa',
       'deg.p2': '2 · Tomate rosa del Perelló con ventresca y aguacate',
       'deg.p3': '3 · Calamarcitos a la andaluza',
@@ -238,7 +241,10 @@
       'cat.postres.title': 'Postres',
       'cat.postres.intro': 'Hechos en casa cada día.',
       'cat.bebidas.title': 'Bebidas',
-      'cat.bebidas.intro': 'Refrescos, cervezas, cafés y licores.',
+      'cat.bebidas.intro': 'Refrescos, cervezas y cafés.',
+      'tab.licores': 'Licores',
+      'cat.licores.title': 'Licores y digestivos',
+      'cat.licores.intro': 'Vermuts, licores, copas y digestivos en copa de balón, con mucho hielo.',
       'cat.vinos.title': 'Bodega',
       'cat.vinos.intro': 'Selección de denominaciones de origen españolas.',
 
@@ -456,7 +462,7 @@
       'about.eyebrow': 'The place',
       'about.title': 'A family corner in Valencia',
       'about.p1': 'Arantxa is a neighborhood restaurant where ingredients are hand-picked every day: pink tomato from Perelló, Iberian ham, fresh fish and selected meats. Traditional recipes, generous portions and an atmosphere that makes you feel right at home.',
-      'about.p2': 'A short, honest menu, a cellar of Spanish DO wines and, on Fridays, our Traditional Madrid stew for €25. That\'s Arantxa.',
+      'about.p2': 'A short, honest menu with tapas to share, seafood and grilled meats —don\'t leave without trying our cachopos—, and a cellar of Spanish DO wines. On Friday lunchtimes, our full cocido madrileño for €25 (seasonal). That\'s Arantxa.',
       'about.stat1.num': '4.9',
       'about.stat1.lbl': 'TripAdvisor rating',
       'about.stat2.num': '42+',
@@ -495,7 +501,7 @@
       'where.sub': 'In the heart of L\'Eixample, minutes from Estación del Norte and the bullring.',
       'where.cta': 'Get directions',
 
-      'footer.tagline': 'Produce-led cooking in València. Bookings by WhatsApp and phone.',
+      'footer.tagline': 'Traditional Spanish cooking. Bookings by WhatsApp and phone.',
       'footer.col1': 'Navigation',
       'footer.col2': 'Contact',
       'footer.col3': 'Legal',
@@ -550,6 +556,9 @@
       'form.grupal.title': '👥 Group menu · €40/pax',
       'form.grupal.desc': 'For celebrations and groups. Includes a welcome drink, one bottle of wine per 2 guests, coffee and a shot.',
       'form.grupal.note': 'ℹ️ The group menu is served for the whole table.',
+      'form.menu.label': 'Choose your option',
+      'form.carta.title': '🍴 À la carte',
+      'form.carta.desc': 'Order freely from our menu.',
       'form.allergies.placeholder': 'E.g. nut allergy, gluten-free, vegetarian, lactose-free…',
       'form.comments.placeholder': 'Birthday, kids high chair, quiet table, running late…',
       'form.name.title': 'Please include first name and surname (at least two words).',
@@ -681,6 +690,12 @@
       'tx.licorhierbas': 'Herb liqueur',
       'tx.cremaorujo': 'Orujo cream liqueur',
       'tx.cremaarroz': 'Rice cream liqueur',
+      'tx.sh.ginebras': 'Gins',
+      'tx.sh.ron': 'Rum',
+      'tx.sh.whisky': 'Whisky',
+      'tx.digestivos.note': 'Digestifs in a balloon glass, over plenty of ice.',
+      'tx.ginebras.mas': 'And a few more… just ask our team.',
+      'tx.chupitos': 'Shots (assorted)',
       'tx.sh.tintos': 'Reds',
       'tx.sh.blancos': 'Whites · Rosés · Cavas',
       'tx.sh.copa': 'Wines by the glass',
@@ -721,7 +736,7 @@
       'cat.carnes.title': 'Meats',
       'cat.carnes.intro': 'Grilled to perfection, selected produce.',
       'cat.degustacion.title': 'Tasting menu',
-      'cat.degustacion.intro': 'Four main courses to get to know us. Minimum 2 people.',
+      'cat.degustacion.intro': 'Minimum 2 people.',
       'deg.p1': '1 · Arantxa-style patatas bravas',
       'deg.p2': '2 · Perelló pink tomato with tuna belly and avocado',
       'deg.p3': '3 · Andalusian-style baby squid',
@@ -730,7 +745,10 @@
       'cat.postres.title': 'Desserts',
       'cat.postres.intro': 'Made in-house every day.',
       'cat.bebidas.title': 'Drinks',
-      'cat.bebidas.intro': 'Soft drinks, beers, coffees and liqueurs.',
+      'cat.bebidas.intro': 'Soft drinks, beers and coffees.',
+      'tab.licores': 'Spirits',
+      'cat.licores.title': 'Spirits & digestifs',
+      'cat.licores.intro': 'Vermouths, liqueurs, spirits and digestifs in a balloon glass, over plenty of ice.',
       'cat.vinos.title': 'Wine cellar',
       'cat.vinos.intro': 'Selection of Spanish denominations of origin.',
 
@@ -1342,11 +1360,7 @@
     const timeRow = document.getElementById('timeRow');
     const timeSelect = document.getElementById('r-time');
     const timeHint = document.getElementById('timeHint');
-    const cocidoRow = document.getElementById('cocidoRow');
-    const cocidoCheck = document.getElementById('r-cocido');
-    const degRow = document.querySelector('.checkbox-card[for="r-degustacion"]');
-    const degCheck = document.getElementById('r-degustacion');
-    const grupalCheck = document.getElementById('r-grupal');
+    const menuRadios = form.querySelectorAll('input[name="menu"]');
 
     // Service hours model: comida y cena por día.
     // Último slot ~1 h antes del cierre para garantizar servicio.
@@ -1394,29 +1408,6 @@
       addGroup('Cena', shifts.dinner);
     }
 
-    function updateCocidoVisibility() {
-      // El cocido siempre se ve. Si no es viernes a mediodía,
-      // se muestra en estado "unavailable" (tachado + nota).
-      const card = cocidoCheck.closest('.checkbox-card');
-      let available = false;
-      if (dateInput.value) {
-        const [yy, mm, dd] = dateInput.value.split('-').map(Number);
-        const dayIdx = new Date(yy, mm - 1, dd).getDay();
-        const t = timeSelect.value;
-        const isLunch = t && parseInt(t.split(':')[0], 10) < 17;
-        available = (dayIdx === 5 && isLunch);
-      }
-      if (available) {
-        card.classList.remove('unavailable');
-        cocidoCheck.disabled = false;
-      } else {
-        card.classList.add('unavailable');
-        cocidoCheck.disabled = true;
-        cocidoCheck.checked = false;
-        card.classList.remove('checked');
-      }
-    }
-
     function onDateChange() {
       if (!dateInput.value) return;
       const [y, m, d] = dateInput.value.split('-').map(Number);
@@ -1442,32 +1433,21 @@
         ? 'Mediodía de lunes a viernes: solo con reserva previa. Escríbenos directamente por WhatsApp.'
         : '';
 
-      updateCocidoVisibility();
     }
 
-    timeSelect.addEventListener('change', updateCocidoVisibility);
     dateInput.addEventListener('change', onDateChange);
     dateInput.addEventListener('input', onDateChange);
 
-    // Marcar visualmente checkbox-cards y aplicar exclusión mutua
-    // (cocido y degustación no pueden estar marcados a la vez).
-    const exclusives = [cocidoCheck, degCheck, grupalCheck].filter(Boolean);
-    exclusives.forEach(cb => {
-      const card = cb.closest('.checkbox-card');
-      cb.addEventListener('change', () => {
-        if (cb.checked) {
-          // Desmarcar los otros del grupo
-          exclusives.forEach(other => {
-            if (other !== cb) {
-              other.checked = false;
-              const otherCard = other.closest('.checkbox-card');
-              if (otherCard) otherCard.classList.remove('checked');
-            }
-          });
-        }
-        card.classList.toggle('checked', cb.checked);
+    // Marcar visualmente la tarjeta de menú seleccionada (radios: A la carta / degustación / grupal).
+    // La exclusividad la garantiza el propio grupo de radios (name="menu").
+    function syncMenuCards() {
+      menuRadios.forEach(r => {
+        const card = r.closest('.checkbox-card');
+        if (card) card.classList.toggle('checked', r.checked);
       });
-    });
+    }
+    menuRadios.forEach(r => r.addEventListener('change', syncMenuCards));
+    syncMenuCards();
 
     // SUBMIT: construir mensaje y abrir WhatsApp
     form.addEventListener('submit', e => {
@@ -1524,18 +1504,16 @@
       lines.push(bi(`*Hora:* ${form.time.value}`, `*Time:* ${form.time.value}`));
       lines.push(bi(`*Comensales:* ${guests}`,    `*Guests:* ${guestsEn}`));
 
-      const cocido = cocidoCheck.checked;
-      const deg = degCheck.checked;
-      const grupal = grupalCheck && grupalCheck.checked;
-      if (cocido || deg || grupal) {
-        lines.push('');
-        lines.push(bi('*Menú especial:*', '*Special menu:*'));
-        if (cocido) lines.push(bi('  · Cocido madrileño completo (25 €/pax)',
-                                   '  · Traditional Madrid stew (€25/pax)'));
-        if (deg)    lines.push(bi('  · Menú degustación 27,90 €/pax — para toda la mesa',
-                                   '  · Tasting menu €27.90/pax — for the whole table'));
-        if (grupal) lines.push(bi('  · Menú grupal 40 €/pax',
-                                   '  · Group menu €40/pax'));
+      const menu = (form.menu && form.menu.value) || 'carta';
+      lines.push('');
+      if (menu === 'degustacion') {
+        lines.push(bi('*Menú:* Menú degustación (27,90 €/pax) — para toda la mesa',
+                      '*Menu:* Tasting menu (€27.90/pax) — for the whole table'));
+      } else if (menu === 'grupal') {
+        lines.push(bi('*Menú:* Menú grupal (40 €/pax) — para toda la mesa',
+                      '*Menu:* Group menu (€40/pax) — for the whole table'));
+      } else {
+        lines.push(bi('*Menú:* A la carta', '*Menu:* À la carte'));
       }
 
       const allergies = form.allergies.value.trim();
@@ -1563,30 +1541,6 @@
       window.open(`https://wa.me/34663209793?text=${msg}`, '_blank', 'noopener');
     });
 
-    // Prefill via URL params (?cocido=1 = next Friday at lunch + cocido check)
-    const params = new URLSearchParams(location.search);
-    if (params.get('cocido') === '1' && calendar) {
-      // Encontrar el próximo viernes (a partir de hoy, inclusivo)
-      const friday = new Date(today);
-      const daysUntilFri = (5 - friday.getDay() + 7) % 7 || 7;
-      friday.setDate(friday.getDate() + daysUntilFri);
-      calendar.setDate(friday);  // dispara onDateChange → muestra hora
-      // Esperar a que el time select tenga opciones y luego elegir 14:00 + marcar cocido
-      setTimeout(() => {
-        if (Array.from(timeSelect.options).some(o => o.value === '14:00')) {
-          timeSelect.value = '14:00';
-          updateCocidoVisibility();
-        }
-        if (cocidoRow.style.display !== 'none') {
-          cocidoCheck.checked = true;
-          cocidoCheck.dispatchEvent(new Event('change'));
-        }
-        // Scroll suave dejando algo de aire arriba (la nav fija ~70px tapa)
-        // y manteniendo visible la fila Fecha + Comensales en la parte superior.
-        const offsetTop = form.getBoundingClientRect().top + window.pageYOffset - 100;
-        window.scrollTo({ top: Math.max(0, offsetTop), behavior: 'smooth' });
-      }, 0);
-    }
   }
 
   // ---------- HOURS: mark today ----------

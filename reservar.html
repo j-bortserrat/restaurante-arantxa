@@ -166,19 +166,23 @@
         <small class="form-hint" id="timeHint"></small>
       </div>
 
-      <div class="form-row" id="cocidoRow">
-        <label class="checkbox-card" for="r-cocido">
-          <input type="checkbox" id="r-cocido" name="cocido">
+      <div class="form-row">
+        <label data-i18n="form.menu.label">Elige tu opción</label>
+      </div>
+
+      <div class="form-row">
+        <label class="checkbox-card" for="r-menu-carta">
+          <input type="radio" id="r-menu-carta" name="menu" value="carta" checked>
           <div class="checkbox-card-body">
-            <span class="price-tag"><span data-i18n="form.cocido.title">🍲 Especialidad · Cocido madrileño completo · 25 €/pax</span><span class="unavail-note" data-i18n="form.cocido.unavail"> — pregúntanos por disponibilidad</span></span>
-            <small data-i18n="form.cocido.desc">Tres vuelcos clásicos. Incluye una bebida y postre o café. Se agota, conviene reservarlo.</small>
+            <span class="price-tag" data-i18n="form.carta.title">🍴 A la carta</span>
+            <small data-i18n="form.carta.desc">Pides libremente de nuestra carta.</small>
           </div>
         </label>
       </div>
 
       <div class="form-row">
-        <label class="checkbox-card" for="r-degustacion">
-          <input type="checkbox" id="r-degustacion" name="degustacion">
+        <label class="checkbox-card" for="r-menu-degustacion">
+          <input type="radio" id="r-menu-degustacion" name="menu" value="degustacion">
           <div class="checkbox-card-body">
             <span class="price-tag" data-i18n="form.deg.title">🍽 Menú degustación · 27,90 €/pax</span>
             <small data-i18n="form.deg.desc">Cuatro pases principales. Mínimo 2 personas. No incluye bebida ni café.</small>
@@ -188,8 +192,8 @@
       </div>
 
       <div class="form-row">
-        <label class="checkbox-card" for="r-grupal">
-          <input type="checkbox" id="r-grupal" name="grupal">
+        <label class="checkbox-card" for="r-menu-grupal">
+          <input type="radio" id="r-menu-grupal" name="menu" value="grupal">
           <div class="checkbox-card-body">
             <span class="price-tag" data-i18n="form.grupal.title">👥 Menú grupal · 40 €/pax</span>
             <small data-i18n="form.grupal.desc">Para celebraciones y grupos. Incluye bebida de bienvenida, una botella de vino cada 2 personas, café y chupito.</small>
@@ -348,7 +352,7 @@
     <div class="foot-grid">
       <div class="foot-col foot-brand">
         <img src="assets/img/logo.png" alt="Logo Arantxa">
-        <p data-i18n="footer.tagline">Cocina de producto en València. Reservas por WhatsApp y teléfono.</p>
+        <p data-i18n="footer.tagline">Cocina española tradicional. Reservas por WhatsApp y teléfono.</p>
       </div>
       <div class="foot-col">
         <h4 data-i18n="footer.col1">Navegación</h4>
