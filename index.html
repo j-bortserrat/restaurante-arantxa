@@ -32,6 +32,7 @@
   <meta name="twitter:image" content="https://restaurantearantxa.com/assets/img/local-interior-1.jpg">
 
   <!-- Favicon -->
+  <link rel="icon" href="favicon.ico" sizes="any">
   <link rel="icon" type="image/png" href="assets/img/logo.png">
   <link rel="apple-touch-icon" href="assets/img/logo-dark-plate.png">
 
@@ -139,7 +140,7 @@
 <nav id="mainNav">
   <div class="container nav-inner">
     <a href="index.html" class="nav-logo" aria-label="Inicio Arantxa">
-      <img src="assets/img/logo.png" alt="Logo Restaurante Arantxa">
+      <img loading="lazy" decoding="async" src="assets/img/logo.png" alt="Logo Restaurante Arantxa">
       <span class="nav-logo-text">
         <strong>ARANTXA</strong>
         <small>Restaurante · València</small>
@@ -201,7 +202,7 @@
         </div>
       </div>
       <div class="about-img reveal">
-        <img src="assets/img/local-interior-2.jpg" alt="Interior de Restaurante Arantxa, mesas vestidas con velvet sage y paneles de madera nogal">
+        <img loading="lazy" decoding="async" src="assets/img/local-interior-2.jpg" alt="Interior de Restaurante Arantxa, mesas vestidas con velvet sage y paneles de madera nogal">
       </div>
     </div>
   </div>
@@ -219,7 +220,7 @@
 
     <div class="dish-grid reveal">
       <article class="dish">
-        <div class="dish-img"><img src="assets/img/plato-micuit-foie.jpg" alt="Micuit de foie casero de Arantxa"></div>
+        <div class="dish-img"><img loading="lazy" decoding="async" src="assets/img/plato-micuit-foie.jpg" alt="Micuit de foie casero de Arantxa"></div>
         <div class="dish-body">
           <h3 class="dish-name" data-i18n="teaser.micuit.name">Micuit de foie casero</h3>
           <p class="dish-desc" data-i18n="teaser.micuit.desc">Elaboración propia, con pan tostado y compota de fruta. Suave y goloso.</p>
@@ -231,7 +232,7 @@
       </article>
 
       <article class="dish">
-        <div class="dish-img"><img src="assets/img/plato-ensalada-burrata.jpg" alt="Ensalada de tomate rosa del Perelló con burrata"></div>
+        <div class="dish-img"><img loading="lazy" decoding="async" src="assets/img/plato-ensalada-burrata.jpg" alt="Ensalada de tomate rosa del Perelló con burrata"></div>
         <div class="dish-body">
           <h3 class="dish-name" data-i18n="teaser.tomate.name">Tomate rosa con burrata</h3>
           <p class="dish-desc" data-i18n="teaser.tomate.desc">Tomate rosa del Perelló con burrata, pesto y rúcula. Joya valenciana de temporada.</p>
@@ -243,7 +244,7 @@
       </article>
 
       <article class="dish">
-        <div class="dish-img"><img src="assets/img/plato-alcachofas.jpg" alt="Alcachofas a baja temperatura"></div>
+        <div class="dish-img"><img loading="lazy" decoding="async" src="assets/img/plato-alcachofas.jpg" alt="Alcachofas a baja temperatura"></div>
         <div class="dish-body">
           <h3 class="dish-name" data-i18n="teaser.alcachofas.name">Alcachofas a baja temperatura</h3>
           <p class="dish-desc" data-i18n="teaser.alcachofas.desc">Con jamón ibérico y huevos de codorniz. Producto fresco de la huerta.</p>
@@ -255,7 +256,7 @@
       </article>
 
       <article class="dish">
-        <div class="dish-img"><img src="assets/img/plato-cecina-burrata.jpg" alt="Cecina de León con burrata de pistacho, pesto y rúcula"></div>
+        <div class="dish-img"><img loading="lazy" decoding="async" src="assets/img/plato-cecina-burrata.jpg" alt="Cecina de León con burrata de pistacho, pesto y rúcula"></div>
         <div class="dish-body">
           <h3 class="dish-name" data-i18n="teaser.cecina.name">Cecina de León con burrata</h3>
           <p class="dish-desc" data-i18n="teaser.cecina.desc">Con burrata de pistacho, pesto y rúcula.</p>
@@ -267,7 +268,7 @@
       </article>
 
       <article class="dish">
-        <div class="dish-img"><img src="assets/img/plato-entrecot.jpg" alt="Entrecot trinchado con patatas y pimientos de padrón"></div>
+        <div class="dish-img"><img loading="lazy" decoding="async" src="assets/img/plato-entrecot.jpg" alt="Entrecot trinchado con patatas y pimientos de padrón"></div>
         <div class="dish-body">
           <h3 class="dish-name" data-i18n="teaser.entrecot.name">Entrecot trinchado</h3>
           <p class="dish-desc" data-i18n="teaser.entrecot.desc">A la brasa y trinchado, con patatas y pimientos de padrón.</p>
@@ -279,7 +280,7 @@
       </article>
 
       <article class="dish">
-        <div class="dish-img"><img src="assets/img/plato-jamon.jpg" alt="Jamón ibérico cortado a cuchillo"></div>
+        <div class="dish-img"><img loading="lazy" decoding="async" src="assets/img/plato-jamon.jpg" alt="Jamón ibérico cortado a cuchillo"></div>
         <div class="dish-body">
           <h3 class="dish-name" data-i18n="teaser.jamon.name">Jamón ibérico</h3>
           <p class="dish-desc" data-i18n="teaser.jamon.desc">Cortado a cuchillo. En tabla mixta con queso curado.</p>
@@ -443,12 +444,62 @@
   </div>
 </section>
 
+<!-- FAQ (SEO + GEO) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    { "@type": "Question", "name": "¿Cuál es el horario de Restaurante Arantxa?", "acceptedAnswer": { "@type": "Answer", "text": "De lunes a viernes abrimos por la noche, de 19:00 a 00:30. Los sábados, de 13:00 a 17:00 y de 19:00 a 00:00. Domingos cerrado. El mediodía de lunes a viernes abrimos solo con reserva previa por WhatsApp." } },
+    { "@type": "Question", "name": "¿Cómo se reserva mesa en Arantxa?", "acceptedAnswer": { "@type": "Answer", "text": "Puedes reservar por WhatsApp o teléfono en el +34 663 209 793, o desde la página de reservas de la web." } },
+    { "@type": "Question", "name": "¿Dónde está Restaurante Arantxa?", "acceptedAnswer": { "@type": "Answer", "text": "En Carrer de Joaquín Costa, 50, L'Eixample, 46005 València, a 5 minutos del Mercado de Colón (metro Xàtiva y Colón)." } },
+    { "@type": "Question", "name": "¿Tienen menú para grupos o menú degustación?", "acceptedAnswer": { "@type": "Answer", "text": "Sí. Menú para grupos por 40 € por persona y menú degustación por 27,90 € por persona (mínimo 2 personas). Ambos se sirven para toda la mesa." } },
+    { "@type": "Question", "name": "¿Hacen cocido madrileño?", "acceptedAnswer": { "@type": "Answer", "text": "Sí, servimos cocido madrileño completo los viernes (solo en temporada) por 25 €. Consulta disponibilidad por WhatsApp." } },
+    { "@type": "Question", "name": "¿Tienen información de alérgenos?", "acceptedAnswer": { "@type": "Answer", "text": "Sí. Contamos con la información de los 14 alérgenos de declaración obligatoria; pregunta a nuestro personal por cada plato." } }
+  ]
+}
+</script>
+<section id="faq" style="padding:70px 0;background:var(--cream)">
+  <div class="container" style="max-width:820px">
+    <div class="section-head reveal">
+      <div class="eyebrow" data-i18n="faq.eyebrow">Preguntas frecuentes</div>
+      <h2 data-i18n="faq.title">Todo lo que necesitas saber</h2>
+    </div>
+    <div class="faq-list reveal" style="margin-top:30px">
+      <details style="border:1px solid var(--line);border-radius:10px;padding:2px 18px;margin-bottom:12px;background:#fff">
+        <summary style="cursor:pointer;font-weight:600;padding:16px 0" data-i18n="faq.q1">¿Cuál es el horario de Restaurante Arantxa?</summary>
+        <p style="color:var(--muted);margin:0 0 16px" data-i18n="faq.a1">De lunes a viernes abrimos por la noche, de 19:00 a 00:30. Los sábados, de 13:00 a 17:00 y de 19:00 a 00:00. Domingos cerrado. El mediodía de lunes a viernes abrimos solo con reserva previa por WhatsApp.</p>
+      </details>
+      <details style="border:1px solid var(--line);border-radius:10px;padding:2px 18px;margin-bottom:12px;background:#fff">
+        <summary style="cursor:pointer;font-weight:600;padding:16px 0" data-i18n="faq.q2">¿Cómo se reserva mesa?</summary>
+        <p style="color:var(--muted);margin:0 0 16px" data-i18n="faq.a2">Puedes reservar por WhatsApp o teléfono en el +34 663 209 793, o desde la página de reservas de la web.</p>
+      </details>
+      <details style="border:1px solid var(--line);border-radius:10px;padding:2px 18px;margin-bottom:12px;background:#fff">
+        <summary style="cursor:pointer;font-weight:600;padding:16px 0" data-i18n="faq.q3">¿Dónde está Arantxa?</summary>
+        <p style="color:var(--muted);margin:0 0 16px" data-i18n="faq.a3">En Carrer de Joaquín Costa, 50, L'Eixample, 46005 València, a 5 minutos del Mercado de Colón (metro Xàtiva y Colón).</p>
+      </details>
+      <details style="border:1px solid var(--line);border-radius:10px;padding:2px 18px;margin-bottom:12px;background:#fff">
+        <summary style="cursor:pointer;font-weight:600;padding:16px 0" data-i18n="faq.q4">¿Tienen menú para grupos o menú degustación?</summary>
+        <p style="color:var(--muted);margin:0 0 16px" data-i18n="faq.a4">Sí. Menú para grupos por 40 € por persona y menú degustación por 27,90 € por persona (mínimo 2 personas). Ambos se sirven para toda la mesa.</p>
+      </details>
+      <details style="border:1px solid var(--line);border-radius:10px;padding:2px 18px;margin-bottom:12px;background:#fff">
+        <summary style="cursor:pointer;font-weight:600;padding:16px 0" data-i18n="faq.q5">¿Hacen cocido madrileño?</summary>
+        <p style="color:var(--muted);margin:0 0 16px" data-i18n="faq.a5">Sí, servimos cocido madrileño completo los viernes (solo en temporada) por 25 €. Consulta disponibilidad por WhatsApp.</p>
+      </details>
+      <details style="border:1px solid var(--line);border-radius:10px;padding:2px 18px;margin-bottom:12px;background:#fff">
+        <summary style="cursor:pointer;font-weight:600;padding:16px 0" data-i18n="faq.q6">¿Tienen información de alérgenos?</summary>
+        <p style="color:var(--muted);margin:0 0 16px" data-i18n="faq.a6">Sí. Contamos con la información de los 14 alérgenos de declaración obligatoria; pregunta a nuestro personal por cada plato.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
 <!-- FOOTER -->
 <footer>
   <div class="container">
     <div class="foot-grid">
       <div class="foot-col foot-brand">
-        <img src="assets/img/logo.png" alt="Logo Arantxa">
+        <img loading="lazy" decoding="async" src="assets/img/logo.png" alt="Logo Arantxa">
         <p data-i18n="footer.tagline">Cocina española tradicional. Reservas por WhatsApp y teléfono.</p>
         <div class="foot-social">
           <a href="https://maps.app.goo.gl/GXvUJ25aapMyuczh7" target="_blank" rel="noopener" aria-label="Google Maps">
