@@ -258,7 +258,7 @@
       'cat.bebidas.intro': 'Refrescos, cervezas y cafés.',
       'tab.licores': 'Licores',
       'cat.licores.title': 'Licores y digestivos',
-      'cat.licores.intro': 'Vermuts, licores, copas y digestivos en copa de balón, con mucho hielo.',
+      'cat.licores.intro': 'Licores, copas y digestivos en copa de balón, con mucho hielo.',
       'cat.vinos.title': 'Bodega',
       'cat.vinos.intro': 'Selección de denominaciones de origen españolas.',
 
@@ -776,7 +776,10 @@
       'cat.bebidas.intro': 'Soft drinks, beers and coffees.',
       'tab.licores': 'Spirits',
       'cat.licores.title': 'Spirits & digestifs',
-      'cat.licores.intro': 'Vermouths, liqueurs, spirits and digestifs in a balloon glass, over plenty of ice.',
+      'cat.licores.intro': 'Liqueurs, spirits and digestifs in a balloon glass, over plenty of ice.',
+      'tx.sh.vermuts': 'Vermouths',
+      'tx.chuleton': 'Dry-aged Frisona beef chop (+30 days)',
+      'tx.chuleton.d': '500-600 g · with chips and Padrón peppers.',
       'cat.vinos.title': 'Wine cellar',
       'cat.vinos.intro': 'Selection of Spanish denominations of origin.',
 
