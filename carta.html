@@ -60,7 +60,8 @@
           { "@type": "MenuItem", "name": "Huevos rotos con jamón ibérico", "offers": { "@type": "Offer", "price": "12.00", "priceCurrency": "EUR" } },
           { "@type": "MenuItem", "name": "Croquetas caseras de cocido (6 unidades)", "offers": { "@type": "Offer", "price": "15.00", "priceCurrency": "EUR" } },
           { "@type": "MenuItem", "name": "Cecina de León con burrata de pistacho, pesto y rúcula", "offers": { "@type": "Offer", "price": "20.00", "priceCurrency": "EUR" } },
-          { "@type": "MenuItem", "name": "Torreznos de Soria", "offers": { "@type": "Offer", "price": "15.00", "priceCurrency": "EUR" } }
+          { "@type": "MenuItem", "name": "Torreznos de Soria", "offers": { "@type": "Offer", "price": "15.00", "priceCurrency": "EUR" } },
+          { "@type": "MenuItem", "name": "Scamorza ahumada a la plancha con papas arrugadas y mojos canarios", "offers": { "@type": "Offer", "price": "12.00", "priceCurrency": "EUR" } }
         ]
       },
       {
@@ -113,6 +114,13 @@
         "name": "Menú degustación",
         "hasMenuItem": [
           { "@type": "MenuItem", "name": "Menú degustación Arantxa (mín. 2 personas)", "description": "Cuatro pases: patatas bravas · tomate rosa del Perelló con ventresca y aguacate · calamarcitos a la andaluza · entraña con chimichurri y papitas baby. Se abre con pan con tomate y alioli y se cierra con postre y chupito. No incluye bebida ni café.", "offers": { "@type": "Offer", "price": "27.90", "priceCurrency": "EUR" } }
+        ]
+      },
+      {
+        "@type": "MenuSection",
+        "name": "Menú del día",
+        "hasMenuItem": [
+          { "@type": "MenuItem", "name": "Menú del día (martes a viernes)", "description": "Primer plato, segundo plato, bebida, postre y café.", "offers": { "@type": "Offer", "price": "20.00", "priceCurrency": "EUR" } }
         ]
       },
       {
@@ -213,6 +221,7 @@
       <button data-tab="mar" role="tab" data-i18n="tab.mar">Del mar</button>
       <button data-tab="carnes" role="tab" data-i18n="tab.carnes">Carnes</button>
       <button data-tab="degustacion" role="tab" data-i18n="tab.degustacion">Degustación</button>
+      <button data-tab="menudia" role="tab" data-i18n="tab.menudia">Menú del día</button>
       <button data-tab="postres" role="tab" data-i18n="tab.postres">Postres</button>
       <button data-tab="bebidas" role="tab" data-i18n="tab.bebidas">Bebidas</button>
       <button data-tab="vinos" role="tab" data-i18n="tab.vinos">Vinos</button>
@@ -239,6 +248,7 @@
         <div class="carta-row"><div class="carta-row-main"><h4 data-i18n="m.croquetas">Croquetas caseras de cocido (6 unidades)</h4></div><span class="carta-row-price">15,00 €</span></div>
         <div class="carta-row"><div class="carta-row-main"><h4 data-i18n="m.cecina">Cecina de León con burrata de pistacho, pesto y rúcula</h4></div><span class="carta-row-price">20,00 €</span></div>
         <div class="carta-row"><div class="carta-row-main"><h4 data-i18n="tx.torreznos">Torreznos de Soria</h4></div><span class="carta-row-price">15,00 €</span></div>
+        <div class="carta-row"><div class="carta-row-main"><h4>Scamorza ahumada a la plancha con papas arrugadas y mojos canarios</h4></div><span class="carta-row-price">12,00 €</span></div>
       </div>
     </div>
 
@@ -316,6 +326,21 @@
         <div class="carta-row"><div class="carta-row-main"><h4 data-i18n="deg.p4">4 · Entraña con chimichurri y papitas baby</h4></div></div>
       </div>
       <p style="text-align:center;margin-top:26px;color:rgba(245,237,224,0.6);font-size:.85rem;font-style:italic" data-i18n="deg.extra">Se abre con pan con tomate y alioli, y se cierra con postre y chupito de la casa.</p>
+    </div>
+
+    <!-- MENÚ DEL DÍA -->
+    <div class="carta-panel" id="panel-menudia">
+      <div class="carta-cat-head">
+        <h3 data-i18n="cat.menudia.title">Menú del día</h3>
+        <p data-i18n="cat.menudia.intro">De martes a viernes.</p>
+      </div>
+      <div style="text-align:center;margin-bottom:40px">
+        <div style="display:inline-flex;align-items:baseline;gap:10px;font-family:var(--serif);color:var(--gold-bright)">
+          <span style="font-size:3.4rem;line-height:1;font-weight:600">20</span>
+          <span style="font-size:.85rem;letter-spacing:.18em;text-transform:uppercase;color:rgba(245,237,224,0.6)">€ / persona</span>
+        </div>
+        <p style="margin-top:14px;color:rgba(245,237,224,0.6);font-size:.85rem;font-style:italic" data-i18n="cat.menudia.incluye">Primer plato, segundo plato, bebida, postre y café.</p>
+      </div>
     </div>
 
     <!-- POSTRES -->
