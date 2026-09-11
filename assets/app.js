@@ -157,6 +157,13 @@
       'cocidoStrip.desc': 'Tres vuelcos · Incluye bebida y postre o café · Se agota, mejor reservar.',
       'cocidoStrip.unit': 'persona',
       'cocidoStrip.cta': 'Reservar',
+
+      // Menú del día strip
+      'menudiaStrip.eyebrow': 'De martes a viernes',
+      'menudiaStrip.title': 'Menú del <em>día</em>',
+      'menudiaStrip.desc': 'Primer plato, segundo plato, bebida, postre y café.',
+      'menudiaStrip.unit': 'persona',
+      'menudiaStrip.cta': 'Reservar',
       'cta.bookTable': 'Reservar mesa',
 
       // Carta tabs
@@ -166,7 +173,6 @@
       'tab.mar': 'Del mar',
       'tab.carnes': 'Carnes',
       'tab.degustacion': 'Degustación',
-      'tab.menudia': 'Menú del día',
       'tab.postres': 'Postres',
       'tab.bebidas': 'Bebidas',
       'tab.vinos': 'Vinos',
@@ -248,9 +254,6 @@
       'cat.carnes.intro': 'A la brasa, en su punto, producto seleccionado.',
       'cat.degustacion.title': 'Menú degustación',
       'cat.degustacion.intro': 'Mínimo 2 personas.',
-      'cat.menudia.title': 'Menú del día',
-      'cat.menudia.intro': 'De martes a viernes.',
-      'cat.menudia.incluye': 'Primer plato, segundo plato, bebida, postre y café.',
       'deg.p1': '1 · Patatas bravas estilo Arantxa',
       'deg.p2': '2 · Tomate rosa del Perelló con ventresca y aguacate',
       'deg.p3': '3 · Calamarcitos a la andaluza',
@@ -615,6 +618,13 @@
       'cocidoStrip.desc': 'Three servings · Drink and dessert or coffee included · Sells out — book ahead.',
       'cocidoStrip.unit': 'per person',
       'cocidoStrip.cta': 'Book',
+
+      // Menu of the day strip
+      'menudiaStrip.eyebrow': 'Tuesday to Friday',
+      'menudiaStrip.title': 'Menu of the <em>day</em>',
+      'menudiaStrip.desc': 'Starter, main course, drink, dessert and coffee.',
+      'menudiaStrip.unit': 'per person',
+      'menudiaStrip.cta': 'Book',
       'cta.bookTable': 'Book a table',
 
       // Menu tabs
@@ -624,7 +634,6 @@
       'tab.mar': 'From the sea',
       'tab.carnes': 'Meats',
       'tab.degustacion': 'Tasting',
-      'tab.menudia': 'Menu of the day',
       'tab.postres': 'Desserts',
       'tab.bebidas': 'Drinks',
       'tab.vinos': 'Wines',
@@ -770,9 +779,6 @@
       'cat.carnes.intro': 'Grilled to perfection, selected produce.',
       'cat.degustacion.title': 'Tasting menu',
       'cat.degustacion.intro': 'Minimum 2 people.',
-      'cat.menudia.title': 'Menu of the day',
-      'cat.menudia.intro': 'Tuesday to Friday.',
-      'cat.menudia.incluye': 'Starter, main course, drink, dessert and coffee.',
       'deg.p1': '1 · Arantxa-style patatas bravas',
       'deg.p2': '2 · Perelló pink tomato with tuna belly and avocado',
       'deg.p3': '3 · Andalusian-style baby squid',
@@ -993,7 +999,7 @@
 
   const HTML_KEYS = new Set([
     'hero.title', 'cocido.title', 'reservar.h1',
-    'cartaPage.h1', 'dondePage.h1', 'cocidoStrip.title',
+    'cartaPage.h1', 'dondePage.h1', 'cocidoStrip.title', 'menudiaStrip.title',
     'how.metro.desc', 'how.bus.desc', 'how.walk.desc', 'how.car.desc'
   ]);
 
