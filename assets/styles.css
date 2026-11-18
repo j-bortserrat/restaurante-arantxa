@@ -1302,3 +1302,52 @@ footer {
   .status-float { bottom: 16px; left: 16px; padding: 9px 13px; font-size: .7rem; gap: 7px; }
   .status-float .status-dot { width: 8px; height: 8px; }
 }
+
+/* Franja Navidad de la carta: pegada a la del menú del día */
+.cocido-strip.xmas-strip { margin-bottom: 16px; }
+.cocido-strip[hidden], .form-row[hidden] { display: none; }
+
+/* ---------- Aviso Menú de Navidad (hasta el 24 dic) ---------- */
+.xmas-modal .xmas-box {
+  background: radial-gradient(ellipse at top, #2a2216 0%, var(--black) 65%);
+  color: var(--cream);
+  max-width: 600px;
+  text-align: center;
+  padding: 34px 44px 32px;
+  border: 1px solid var(--line);
+  outline: 1px solid rgba(212,168,87,0.28);
+  outline-offset: -10px;
+}
+.xmas-modal .modal-close { background: rgba(245,237,224,0.12); color: var(--cream); }
+.xmas-modal .modal-close:hover { background: var(--gold); color: var(--black); }
+.xmas-logo { display: block; width: 72px; height: 72px; margin: 0 auto 4px; object-fit: contain; mix-blend-mode: lighten; }
+.xmas-eyebrow { font-family: var(--display); font-size: .7rem; letter-spacing: .32em; text-transform: uppercase; color: var(--gold); margin-bottom: 8px; }
+.xmas-box h3 { font-family: var(--serif); font-size: 2.1rem; font-weight: 500; color: var(--cream); margin: 0 0 16px; line-height: 1.15; }
+.xmas-box h3 em { color: var(--gold-bright); font-style: italic; font-weight: 400; }
+.xmas-price { display: flex; align-items: center; gap: 16px; margin: 0 0 8px; }
+.xmas-price::before, .xmas-price::after { content: ''; flex: 1; height: 1px; background: linear-gradient(90deg, transparent, var(--gold-deep)); }
+.xmas-price::after { background: linear-gradient(270deg, transparent, var(--gold-deep)); }
+.xmas-price span { font-family: var(--display); letter-spacing: .18em; text-transform: uppercase; font-size: .78rem; color: rgba(245,237,224,0.85); }
+.xmas-price strong { font-family: var(--serif); font-size: 1.9rem; font-weight: 500; color: var(--gold-bright); line-height: 1; }
+.xmas-list { list-style: none; padding: 0; margin: 0; }
+.xmas-list li { padding: 9px 0 9px; font-family: var(--serif); font-size: 1.02rem; color: var(--cream); line-height: 1.35; }
+.xmas-list li + li::before { content: '◆'; display: block; font-size: .45rem; color: var(--gold-deep); margin-bottom: 7px; }
+.xmas-incl { margin-top: 10px; padding: 14px 18px; border: 1px solid var(--line); background: rgba(212,168,87,0.06); }
+.xmas-box .xmas-incl p { color: rgba(245,237,224,0.85); font-size: .85rem; margin: 0; line-height: 1.55; }
+.xmas-box .xmas-incl p + p { margin-top: 4px; }
+.xmas-incl strong { color: var(--gold-bright); font-weight: 600; }
+.xmas-actions { display: flex; gap: 12px; justify-content: center; margin-top: 24px; flex-wrap: wrap; }
+.xmas-actions .btn-ghost { color: var(--cream); border-color: rgba(245,237,224,0.35); }
+@media (max-width: 600px) {
+  .xmas-modal .xmas-box { padding: 28px 20px 22px; }
+  .xmas-modal .modal-close { top: 10px; right: 10px; }
+  .xmas-logo { width: 46px; height: 46px; }
+  .xmas-box h3 { font-size: 1.6rem; margin-bottom: 12px; }
+  .xmas-price strong { font-size: 1.6rem; }
+  .xmas-list li { padding: 4px 0; font-size: .92rem; }
+  .xmas-list li + li::before { margin-bottom: 3px; }
+  .xmas-incl { padding: 10px 12px; }
+  .xmas-actions .btn { padding: 13px 18px; }
+  .xmas-actions { margin-top: 14px; gap: 8px; }
+  .xmas-actions .btn { flex: 1 1 100%; justify-content: center; text-align: center; }
+}

@@ -130,6 +130,9 @@
       'form.grupal.title': '👥 Menú grupal · 40 €/pax',
       'form.grupal.desc': 'Para celebraciones y grupos. Incluye bebida de bienvenida, una botella de vino cada 2 personas, café y chupito.',
       'form.grupal.note': 'ℹ️ El menú grupal se sirve para toda la mesa.',
+      'form.navidad.title': '🎄 Menú de Navidad · 50 €/pax',
+      'form.navidad.desc': 'Comidas y cenas de empresa. Entrantes, calamar, cachopo, postres, café, chupito y bebida incluida.',
+      'form.navidad.note': 'ℹ️ El menú de Navidad se sirve para toda la mesa. Disponible hasta el 24 de diciembre.',
       'form.menu.label': 'Elige tu opción',
       'form.carta.title': '🍴 A la carta',
       'form.carta.desc': 'Pides libremente de nuestra carta.',
@@ -164,6 +167,11 @@
       'menudiaStrip.desc': 'Primer plato, segundo plato, bebida, postre y café.',
       'menudiaStrip.unit': 'persona',
       'menudiaStrip.cta': 'Reservar',
+      'xmasStrip.eyebrow': 'Comidas y cenas de empresa',
+      'xmasStrip.title': 'Menú de <em>Navidad</em>',
+      'xmasStrip.desc': 'Jamón ibérico, cecina, calamar, cachopo, postres, café, chupito y bebida incluida.',
+      'xmasStrip.unit': 'persona',
+      'xmasStrip.cta': 'Reservar',
       'cta.bookTable': 'Reservar mesa',
 
       // Carta tabs
@@ -591,6 +599,9 @@
       'form.grupal.title': '👥 Group menu · €40/pax',
       'form.grupal.desc': 'For celebrations and groups. Includes a welcome drink, one bottle of wine per 2 guests, coffee and a shot.',
       'form.grupal.note': 'ℹ️ The group menu is served for the whole table.',
+      'form.navidad.title': '🎄 Christmas menu · €50/pax',
+      'form.navidad.desc': 'Company lunches and dinners. Starters, squid, cachopo, desserts, coffee, liqueur shot and drinks included.',
+      'form.navidad.note': 'ℹ️ The Christmas menu is served for the whole table. Available until 24 December.',
       'form.menu.label': 'Choose your option',
       'form.carta.title': '🍴 À la carte',
       'form.carta.desc': 'Order freely from our menu.',
@@ -625,6 +636,11 @@
       'menudiaStrip.desc': 'Starter, main course, drink, dessert and coffee.',
       'menudiaStrip.unit': 'per person',
       'menudiaStrip.cta': 'Book',
+      'xmasStrip.eyebrow': 'Company lunches and dinners',
+      'xmasStrip.title': 'Christmas <em>Menu</em>',
+      'xmasStrip.desc': 'Iberian ham, cecina, squid, cachopo, desserts, coffee, liqueur shot and drinks included.',
+      'xmasStrip.unit': 'per person',
+      'xmasStrip.cta': 'Book',
       'cta.bookTable': 'Book a table',
 
       // Menu tabs
@@ -1000,7 +1016,7 @@
 
   const HTML_KEYS = new Set([
     'hero.title', 'cocido.title', 'reservar.h1',
-    'cartaPage.h1', 'dondePage.h1', 'cocidoStrip.title', 'menudiaStrip.title',
+    'cartaPage.h1', 'dondePage.h1', 'cocidoStrip.title', 'menudiaStrip.title', 'xmasStrip.title',
     'how.metro.desc', 'how.bus.desc', 'how.walk.desc', 'how.car.desc'
   ]);
 
@@ -1555,6 +1571,9 @@
       if (menu === 'degustacion') {
         lines.push(bi('*Menú:* Menú degustación (27,90 €/pax) — para toda la mesa',
                       '*Menu:* Tasting menu (€27.90/pax) — for the whole table'));
+      } else if (menu === 'navidad') {
+        lines.push(bi('*Menú:* Menú de Navidad (50 €/pax) — para toda la mesa',
+                      '*Menu:* Christmas menu (€50/pax) — for the whole table'));
       } else if (menu === 'grupal') {
         lines.push(bi('*Menú:* Menú grupal (40 €/pax) — para toda la mesa',
                       '*Menu:* Group menu (€40/pax) — for the whole table'));
@@ -1696,6 +1715,93 @@
     setInterval(() => updateStatusFloat(currentLang()), 60000);
   }
 
+
+  // ---------- AVISO MENÚ DE NAVIDAD ----------
+  // Se muestra al entrar (una vez por sesión) hasta el 24/12/2026 incluido.
+  const XMAS_UNTIL = new Date(2026, 11, 24, 23, 59, 59);
+  const XMAS_LABELS = {
+    es: {
+      eyebrow: 'Comidas y cenas de empresa',
+      title: 'Menú de <em>Navidad</em> 2026',
+      price: 'Precio por persona',
+      items: [
+        'Pan con alioli y tomate',
+        'Tabla de jamón ibérico y queso curado',
+        'Cecina de León con straciatella de pistacho',
+        'Patatas bravas estilo Arantxa',
+        'Calamar playa a la plancha con papas arrugadas, alioli y mojo verde',
+        'Cachopo asturiano con patatas y pimientos'
+      ],
+      incl: '<strong>Incluye:</strong> pan, postres variados, café y chupito.',
+      drinks: '<strong>Bebida incluida:</strong> agua, cerveza, refrescos, vino blanco y vino tinto.',
+      book: 'Reserva con antelación',
+      close: 'Cerrar',
+      closeAria: 'Cerrar'
+    },
+    en: {
+      eyebrow: 'Company lunches and dinners',
+      title: 'Christmas <em>Menu</em> 2026',
+      price: 'Price per person',
+      items: [
+        'Bread with aioli and tomato',
+        'Iberian ham and cured cheese board',
+        'Cecina de León with pistachio stracciatella',
+        'Patatas bravas Arantxa style',
+        'Grilled beach squid with wrinkled potatoes, aioli and green mojo',
+        'Asturian cachopo with potatoes and peppers'
+      ],
+      incl: '<strong>Includes:</strong> bread, assorted desserts, coffee and liqueur shot.',
+      drinks: '<strong>Drinks included:</strong> water, beer, soft drinks, white wine and red wine.',
+      book: 'Book in advance',
+      close: 'Close',
+      closeAria: 'Close'
+    }
+  };
+
+  function setupXmasStrip() {
+    const strip = document.getElementById('xmasStrip');
+    const row = document.getElementById('xmasMenuRow');
+    if (new Date() > XMAS_UNTIL) return;
+    if (strip) strip.hidden = false;
+    if (row) row.hidden = false;
+  }
+
+  function setupXmasPopup() {
+    if (new Date() > XMAS_UNTIL) return;
+    if (/reservar\.html/.test(location.pathname)) return;
+    try { if (sessionStorage.getItem('arantxa.xmas') === '1') return; } catch (e) {}
+    const L = XMAS_LABELS[consentLang()];
+    const modal = document.createElement('div');
+    modal.className = 'modal xmas-modal';
+    modal.setAttribute('role', 'dialog');
+    modal.setAttribute('aria-modal', 'true');
+    modal.setAttribute('aria-label', 'Menú de Navidad');
+    modal.innerHTML =
+      '<div class="modal-box xmas-box">' +
+        '<button class="modal-close" data-modal-close aria-label="' + L.closeAria + '">✕</button>' +
+        '<img class="xmas-logo" src="assets/img/logo-dark-plate.png" alt="Restaurante Arantxa" width="72" height="72">' +
+        '<div class="xmas-eyebrow">' + L.eyebrow + '</div>' +
+        '<h3>' + L.title + '</h3>' +
+        '<div class="xmas-price"><span>' + L.price + '</span><strong>50 €</strong></div>' +
+        '<ul class="xmas-list">' + L.items.map(i => '<li>' + i + '</li>').join('') + '</ul>' +
+        '<div class="xmas-incl"><p>' + L.incl + '</p><p>' + L.drinks + '</p></div>' +
+        '<div class="xmas-actions">' +
+          '<a href="reservar.html" class="btn btn-primary">' + L.book + '</a>' +
+          '<button type="button" class="btn btn-ghost" data-modal-close>' + L.close + '</button>' +
+        '</div>' +
+      '</div>';
+    document.body.appendChild(modal);
+    const dismiss = () => {
+      modal.classList.remove('open');
+      try { sessionStorage.setItem('arantxa.xmas', '1'); } catch (e) {}
+    };
+    modal.addEventListener('click', e => {
+      if (e.target === modal || e.target.closest('[data-modal-close]')) dismiss();
+    });
+    document.addEventListener('keydown', e => { if (e.key === 'Escape') dismiss(); });
+    setTimeout(() => modal.classList.add('open'), 600);
+  }
+
   // ---------- INIT ----------
   document.addEventListener('DOMContentLoaded', () => {
     setupNav();
@@ -1705,6 +1811,8 @@
     setupTabs();
     setupModals();
     setupConsent();
+    setupXmasPopup();
+    setupXmasStrip();
     setupForms();
     setupReservationForm();
     setupHoursToday();
